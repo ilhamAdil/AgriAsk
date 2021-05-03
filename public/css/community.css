@@ -1,0 +1,13 @@
+.left-panel,
+.right-panel {
+    top: 80px !important;
+    position: sticky !important;
+}
+
+@media(max-width:768px) {
+
+    .left-container,
+    .right-container {
+        display: none !important;
+    }
+}

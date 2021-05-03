@@ -1,0 +1,44 @@
+.cursor {
+    cursor: pointer !important;
+}
+
+.forgot-pass:hover {
+    color: var(--green_) !important;
+}
+
+.sign-in-icon::before {
+    line-height: 1.2 !important;
+}
+
+.sign-up-icon::before,
+.forgot-icon::before {
+    line-height: 1.185 !important;
+}
+
+.sign-in-bg-illus {
+    /* background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); */
+    background-image: url("../assets/images/farmer.webp");
+    min-height: auto;
+    background-repeat: unset;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.reset-pass,
+.sign-up,
+.sign-in {
+    background-color: var(--soft_gray_);
+}
+
+@media (max-width:768px) {
+    .sign-in-illus {
+        display: none;
+    }
+
+    .sign-in-tittle,
+    .sign-in-desc {
+        text-align: center;
+    }
+}

@@ -1,0 +1,252 @@
+/* Skip link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: var(--green_);
+    color: white;
+    padding: 8px;
+    z-index: 99999999;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.skip-link:hover {
+    color: white;
+}
+
+.skip-link:focus {
+    top: 0;
+    transition: all .2s;
+}
+
+.height-navbar {
+    height: 100%;
+}
+
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    border-bottom: 1px solid var(--medium_gray_);
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 63px;
+}
+
+.nav-list {
+    display: flex;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.nav-list li {
+    list-style-type: none;
+    cursor: pointer !important;
+}
+
+.menu-li {
+    cursor: pointer !important;
+}
+
+.menu-li a,
+.brand a,
+.auth-li a {
+    text-decoration: none;
+}
+
+.brand a h3 {
+    color: var(--green_);
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.auth-home {
+    height: 40px !important;
+}
+
+.sign-up-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-li a,
+.auth-li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(72, 72, 72);
+}
+
+.auth-li a {
+    margin: 0 20px;
+}
+
+.sign-up-btn {
+    margin-right: 0 !important;
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    .menu-li a {
+        margin: 0;
+        width: 1000px !important;
+    }
+
+    .hamburger-container,
+    .hamburger-icon,
+    .bi-list::before {
+        width: 52px;
+        cursor: pointer !important;
+    }
+
+    .bi-list::before,
+    .bi-x::before {
+        height: 38px;
+    }
+
+    #drawer {
+        top: 0;
+        right: 0;
+        width: 60% !important;
+        height: 100% !important;
+        background-color: white;
+        position: fixed;
+        padding: 0 .5em;
+        transition: all .3s;
+        transform: translateX(100%);
+        z-index: 999;
+        border-left: 1px solid var(--soft_gray_);
+        justify-content: flex-start;
+    }
+
+    #drawer.open {
+        position: fixed;
+        transform: translateX(0);
+        border-left: 1px solid var(--soft_gray_);
+        box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        padding-right: 0 !important;
+    }
+
+    .nav-list {
+        flex-direction: column !important;
+        justify-content: flex-start;
+
+    }
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .auth-home {
+        width: 100%;
+        margin-top: 100px !important;
+        flex-direction: column;
+    }
+
+    .sign-up-btn {
+        width: 83px;
+        height: 46px !important;
+        margin-top: 26px !important;
+    }
+
+    .menu-li a,
+    .auth-li a {
+        justify-content: left;
+        margin: 15px 1em;
+    }
+
+    .menu-icon {
+        margin-right: 10px !important;
+    }
+
+    .home-utama {
+        border-top: 1px solid var(--medium_gray_);
+    }
+
+    .back-icon {
+        cursor: pointer;
+        display: inline-block;
+        justify-items: flex-end;
+        margin-left: auto;
+        text-align: center;
+        height: 62px;
+    }
+
+    .desktop-app-bar {
+        display: none !important;
+    }
+
+}
+
+@media (min-width:768px) {
+    .menu-li a {
+        width: 90px;
+    }
+
+    .border-auth {
+        border-left: .1rem solid var(--medium_gray_);
+    }
+
+    .brand {
+        width: 10%;
+    }
+
+    .nav-list {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .height-navbar {
+        justify-content: flex-start !important;
+    }
+
+    .menu-icon,
+    .back-icon,
+    .hamburger-icon {
+        display: none;
+    }
+
+    .menu-li:hover {
+        background-color: var(--soft_gray_);
+    }
+
+    .active_ {
+        border-bottom: 3px solid var(--green_);
+        background-color: var(--soft_gray_);
+        margin-bottom: -3px !important;
+    }
+
+    .mobile-app-bar {
+        display: none !important;
+    }
+}
+
+@media (max-width:992px) {
+    .brand {
+        width: 15%;
+    }
+
+    .nav-list {
+        width: 85%;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:992px) {
+    .menu-li a {
+        width: 115px;
+    }
+}

@@ -1,0 +1,13 @@
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--green_);
+    background-color: var(--soft_green_);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/icons/chevron-down.svg") !important;
+}

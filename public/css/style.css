@@ -1,0 +1,61 @@
+@import url("./main.css");
+@import url("./auth.css");
+@import url("./app-bar.css");
+@import url("./jumbotron.css");
+@import url("./articles.css");
+@import url("./footer.css");
+@import url("./faq.css");
+@import url("./community.css");
+@import url("./utility.css");
+@import url("./edit.css");
+@import url("/assets/font/inter-400.css");
+
+/* node modules */
+@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
+@import url("/node_modules/animate.css/animate.min.css");
+@import url("/node_modules/nprogress/nprogress.css");
+
+:root {
+    --green_: #198754;
+    --soft_green_: #D1E7DD;
+    --soft_gray_: #fafafa;
+    --medium_gray_: #C5C5C5;
+    --red_: #E94235;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100% !important;
+    background-color: var(--soft_gray_);
+}
+
+body {
+    min-height: 100vh !important;
+}
+
+/* reset bootstrap btn outline */
+.btn:active,
+.btn:focus,
+.btn.active,
+.btn:active:focus {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#nprogress .bar {
+    background: var(--green_);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: var(--green_);
+    border-left-color: var(--green_);
+}

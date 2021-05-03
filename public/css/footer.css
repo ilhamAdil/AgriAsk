@@ -1,0 +1,41 @@
+.footer-custom {
+    background-color: #1E2228;
+}
+
+.footer-detail a,
+.copyright-txt,
+.footer-desc,
+.footer-email {
+    color: var(--medium_gray_);
+}
+
+.footer-title {
+    color: white;
+}
+
+@media(max-width:768px) {
+    .copyright-footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-detail {
+        text-align: center;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-detail a {
+        margin: 7px 0;
+    }
+}
+
+@media(min-width:768px) {
+
+    .footer-detail a:hover,
+    .foot-icon:hover {
+        color: white !important;
+    }
+
+}

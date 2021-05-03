@@ -1,0 +1,49 @@
+.desc {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.bs-callout {
+    padding: 5px !important;
+    border-left: 5px solid var(--green_) !important;
+}
+
+.pagination>li>a {
+    background-color: white;
+    color: #1E2228;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: var(--green_);
+    background-color: var(--soft_green_);
+    border-color: var(--soft_green_);
+}
+
+.pagination>.active>a {
+    color: white;
+    background-color: var(--green_) !Important;
+    border: solid 1px var(--green_) !Important;
+}
+
+.pagination>.active>a:hover {
+    background-color: var(--green_) !Important;
+    border: solid 1px var(--green_);
+}
+
+@media(min-width:768px) {
+    .box-shadow-card {
+        transition: box-shadow .3s;
+    }
+
+    .box-shadow-card:hover {
+        box-shadow: 0 0 7px rgba(33, 33, 33, .2);
+    }
+
+    .box-tittle:hover {
+        color: var(--green_);
+    }
+
+}
