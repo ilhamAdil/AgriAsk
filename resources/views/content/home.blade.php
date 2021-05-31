@@ -13,7 +13,7 @@
                     AgriAsk hadir untuk para petani di Indonesia! Kamu bisa belajar dan berbagi informasi
                     seputar pertanian terkini.
                 </h6>
-                <a href="#main-content" class="btn page-scroll">
+                <a href="/community" class="btn page-scroll">
                     <button class="btn btn-success " aria-label="Tanya Sekarang Button">
                         Tanya Sekarang
                     </button>

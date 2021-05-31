@@ -21,7 +21,7 @@
                   </div>
                   <div class="form-group">
                     <label for="Tags">Tags</label>
-                    <input type="text" name="tags" value="{{ old('tags', $question->tags)}}" class="form-control mb-3" placeholder="Enter Tags">
+                    <input type="text" name="tags" value="{{ old('tags', $question->tags->tag_name)}}" class="form-control mb-3" placeholder="Enter Tags">
                   </div>
                   <button type="submit" class="btn btn-success">Submit</button>            
               </form>

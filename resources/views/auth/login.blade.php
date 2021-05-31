@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>AgriAsk - Login</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">

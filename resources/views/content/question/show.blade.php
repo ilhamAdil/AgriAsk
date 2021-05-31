@@ -150,7 +150,20 @@
 
                                 <p>{{ $question->body }}</p>
                                 <div class="d-flex justify-content-between">
-                                    <p class="card-text my-auto"><small class="text-muted">#hidroponik</small></p>
+                                    <p class="card-text my-auto"><small class="text-muted">
+                                    <?php 
+                                    $i=0;
+                                    foreach($question->tags as $tag){
+                                        if($i<4){
+                                            echo "#".$tag->tag_name."&nbsp; &nbsp;";
+                                        }
+                                        else{
+                                            echo "#".$tag->tag_name."<br>";
+                                            $i=0;   
+                                        }
+                                        $i++;
+                                    }
+                                    ?></small></p>
                                     <button class="btn btn-outline-success"><i
                                             class="bi bi-share-fill me-2"></i>Bagikan</button>
                                 </div>
@@ -167,7 +180,7 @@
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle">
                                     <div class="my-auto ms-2">
-                                        <a href="/profile/overview.html" class="text-decoration-none text-dark">
+                                        <a href=# class="text-decoration-none text-dark">
                                             <p class="ms-2 my-auto">{{ Auth::user()->username }}</p>
                                         </a>
                                         <p class="ms-2 my-auto">
@@ -177,9 +190,10 @@
                                     </div>
                                 </div>
 
-                                <form action="">
+                                <form action="/community/{{ $question->id }}" method="post">
+                                @csrf
                                     <div class="mb-0">
-                                        <textarea class="form-control text-area-inp-answ" class="message-text text-wrap"
+                                        <textarea class="form-control text-area-inp-answ" class="message-text text-wrap" name="comment"
                                             placeholder="Tuliskan jawaban Kamu disini"></textarea>
                                     </div>
                                     <button class="btn btn-success mt-4 ms-auto d-block">Kirim Jawaban</button>
@@ -194,24 +208,28 @@
                             <!-- tutup user lain -->
 
                             <!-- jawaban user lain -->
-                            <!-- jawaban user lain -->
+                            @foreach($answers as $answer)
                             <div>
                                 <div class="d-flex">
                                     <!-- upvote dan downvote -->
+                                    <form>
                                     <div class="d-flex flex-column my-auto">
                                         <i class="bi bi-caret-up-fill upvote" style="font-size:1.5rem;"
                                             data-bs-toggle="tooltip" data-bs-placement="top"
                                             title="Upvote. Jawaban ini membantu"></i>
-                                        <p class="fs-4 mb-0 mx-auto">4</p>
+                                        <p class="fs-4 mb-0 mx-auto">0</p>
                                         <i class="bi bi-caret-down-fill downvote" style="font-size:1.5rem;"
                                             data-bs-toggle="tooltip" data-bs-placement="bottom"
                                             title="Downvote. Jawaban ini kurang membantu"></i>
                                     </div>
+                                    </form>
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle ms-3">
                                     <div class="my-auto ms-2">
                                         <a href="/profile/overview.html" class="text-decoration-none text-dark">
-                                            <p class="ms-2 my-auto">Nisma758</p>
+                                             @foreach($answer->users as $user) 
+                                            <p class="ms-2 my-auto">{{ $user->username }}</p>
+                                             @endforeach
                                         </a>
                                         <p class="ms-2 my-auto">
                                             <i class="bi bi-star-fill" style="color: orange;"></i>
@@ -221,23 +239,16 @@
                                     </div>
                                 </div>
 
-                                <small><span class="text-muted align-text-top ms-4 fst-italic ms-5 time-answered">5
-                                        menit
-                                        yang
-                                        lalu</span></small>
+                                <small><span class="text-muted align-text-top ms-4 fst-italic ms-5 time-answered">{{ $answer->created_at->diffForHumans() }}</span></small>
 
 
                                 <div class="ms-5 mt-2 answered-container">
-                                    <p class="answered-box rounded p-3">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing
-                                        elit.
-                                        Ad,
-                                        doloremque dicta placeat
-                                        repellendus vel iste? Accusantium quaerat, ad esse, quod veniam a impedit
-                                        suscipit
-                                        illum cum vero nihil. Veritatis, iure?</p>
+                                    <p class="answered-box rounded p-3">{{ $answer->body }}</p>
                                 </div>
                             </div>
+
+                            <div class="border-bottom my-4"></div>
+                            @endforeach
                             <!-- tutup user lain -->
                             
                             <!-- tutup user lain -->

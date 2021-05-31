@@ -32,9 +32,27 @@ class CommunityController extends Controller
         // 4. kalau sudah ada ambil idnya
         // 5. kalau belum ada simpan dulu tagnya, lalu ambil idnya
         // 6. tampung id di array penampung
-        // $tags_arr = explode(',', $request["tags"]);
+
+        $tags_arr = explode(',', $request["tags"]);
         // dd($tags_arr);
-        // foreach()
+
+        $tag_ids = [];
+        foreach($tags_arr as $tag_name){
+            $tag = Tag::firstOrCreate(["tag_name" => $tag_name]);
+
+            $tag_ids[] = $tag->id;
+
+            // atau
+            // $tag = Tag::where("tag_name", $tag_name)->first();
+            // if($tag){
+            //     $tag_ids[] = $tag->id;
+            // } else {
+            //     $new_tag = Tag::create(["tag_name" => $tag_name]);
+            //     $tag_ids[] =  $new_tag->id;
+            // }
+        }
+
+        // dd($tag_ids);        
 
          //ORM - mass assignment
         $question = Question::create([
@@ -42,6 +60,8 @@ class CommunityController extends Controller
             "body" => $request["body"],
             "user_id" => Auth::id()
         ]);
+
+        $question->tags()->sync($tag_ids);
 
         return redirect('/community');
     }
@@ -63,16 +83,33 @@ class CommunityController extends Controller
 
     public function edit($id){
         $question = Question::find($id);
+        
         return view('content.question.edit', compact('question'));
     }
+
+    
+    public function answer($id, Request $request){
+        $answer = Answer::create([
+            "body" => $request["comment"],
+            "question_id" => $id
+        ]);
+        $user = User::find(Auth::id());   
+        $answer->users()->sync($user);     
+
+        $answers = Answer::where('question_id',$id)->get();            
+        
+        $question = Question::find($id);
+        return view('content.question.show', compact('answers','question'));    
+    }   
 
     public function show($id){
         // QUERY BUILDER
         // $post = DB::table('posts')->where('id',$id)->first();
 
-        $question = Question::find($id);
-        return view('content.question.show', compact('question'));
-    }
+        $question = Question::find($id);            
+        $answers = Answer::where('question_id',$id)->get();
 
-    
+        return view('content.question.show', compact('answers','question'));
+    }
+ 
 }

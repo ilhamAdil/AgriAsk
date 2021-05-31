@@ -32,7 +32,8 @@
             <div class="d-flex justify-content-between">
                 <a href="/community/{{ $question->id }}" class="text-decoration-none text-dark">
                     <h6 class="fw-bold question-tittle box-tittle">{{ $question->title }}</h6>
-                </a>                
+                </a>            
+                @if($question->user->username === Auth::user()->username)
                 <div class="dropdown">
                             <i class="bi bi-three-dots dots-icon" class="dropdown-toggle" type="button"
                                 id="dropdownMenuButton${i}" data-bs-toggle="dropdown" aria-expanded="false"></i>
@@ -48,14 +49,29 @@
                                 </form>
                                 </li>
                             </ul>
-                </div>
+                </div>      
+                @endif      
             </div>
 
                 <p class="card-text"><small class="text-muted"> {{ $question->user->username }} - {{ $question->created_at->diffForHumans() }}</small>
                 </p>
                 <p class="desc">{{ $question->body }}</p>
-                <div class="d-flex justify-content-between">
-                    <p class="card-text mb-0"><small class="text-muted">hidroponik</small></p>
+                <div class="d-flex justify-content-between">                    
+                    <p class="card-text mb-0"><small class="text-muted">
+                    <?php 
+                    $i=0;
+                    foreach($question->tags as $tag){
+                        if($i<2){
+                            echo "#".$tag->tag_name."&nbsp;&nbsp;&nbsp;";
+                        }
+                        else{
+                            echo "#".$tag->tag_name."<br>";
+                            $i=0;   
+                        }
+                        $i++;
+                    }
+                    ?>
+                    </small></p>
                     <span class="mb-0"> 
                     0 jawaban
                     </span>

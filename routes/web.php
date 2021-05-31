@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('content.home');
 });
 
 // Route::get('/home',function(){
@@ -32,6 +32,8 @@ Route::delete('/community/{id}','CommunityController@destroy');
 Route::get('/community/{id}/edit','CommunityController@edit');
 Route::get('/community/{id}','CommunityController@show');
 Route::put('/community/{id}','CommunityController@update');
+
+Route::post('/community/{id}','CommunityController@answer');
 
 
 Auth::routes();
