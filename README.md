@@ -1,3 +1,34 @@
+Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project. 
+
+* masuk ke direktori AgriAsk
+```bash
+$ cd AgriAsk
+```
+* jalankan perintah composer install untuk mendownload direktori vendor
+```bash
+$ composer install
+```
+* buat file .env lalu isi file tersebut dengan seluruh isi dari file .env.example (copy isi dari .env.example lalu paste di file .env)
+
+* jalankan perintah php artisan key generate
+```bash
+$ php artisan key:generate
+```
+* Sesuaikan nama database, username dan password nya di file .env dengan database kalian. 
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=<NAMA_DATABASE>
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Jangan lupa untuk menjalankan server laravel
+```bash
+$ php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
