@@ -88,6 +88,9 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 
 ### Activity Diagram
 
+Mendaftar akun
+![activity_diagram_register](https://user-images.githubusercontent.com/66185022/120842949-0983bd80-c5a0-11eb-9952-319bd0cc14c0.jpg)
+
 ### Class Diagram
 
 ### Entity Relationship Diagram (ERD)
