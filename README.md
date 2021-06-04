@@ -24,7 +24,7 @@ Asisten Praktikum :
 
 AgriAsk ini adalah sebuah website forum diskusi yang dikhususkan untuk kalangan atau komunitas petani modern. Petani atau user dapat mengajukan pertanyaan yang berkaitan tentang pertanian. Nantinya, user lain yang sekiranya memiliki ilmu yang lebih baik tentang pertanian, dapat menjawab pertanyaan yang diajukan oleh user tersebut. Harapannya dengan website ini, dapat membantu petani/user untuk menjalankan kegiatan pertanian modernnya seperti hidroponik, aquaponik, dan sebagainya.
 
-## User Analysis
+## User Analisis
 
 ### User Story
 
