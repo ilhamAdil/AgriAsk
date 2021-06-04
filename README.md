@@ -139,7 +139,7 @@ Update password
 
 ### Link Aplikasi
 
-Demo aplikasi dapat diakses pada tautan berikut [Demo-AgriAsk][demo-agriask]: ipb.link/agriask
+Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk][demo-agriask]: ipb.link/agriask
 
 ## Testing (Test Cases)
 
