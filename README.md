@@ -92,7 +92,7 @@ Mendaftar akun
 ![activity_diagram_register](https://user-images.githubusercontent.com/66185022/120842949-0983bd80-c5a0-11eb-9952-319bd0cc14c0.jpg)
 
 Login
-![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120844304-c4608b00-c5a1-11eb-9230-cfffd481c266.jpg)
+![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120845622-a85de900-c5a3-11eb-8350-d65e4b044525.jpg)
 
 Update password
 ![activity_diagram_lupaPassword](https://user-images.githubusercontent.com/66185022/120845328-3f767100-c5a3-11eb-8695-d44062be0cd0.jpg)
