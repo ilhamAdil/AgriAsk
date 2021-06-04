@@ -196,4 +196,4 @@ Pastikan server Apache dan MySQL berjalan di XAMPP
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-[demo-agriask]: ipb.link/agriask
+[demo-agriask]: https://ipb.link/agriask
