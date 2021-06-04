@@ -28,7 +28,7 @@ AgriAsk adalah sebuah website forum diskusi yang dikhususkan untuk kalangan atau
 
 ### User Profile
 
-Target user aplikasi AgriAsk adalah masyrakat umum tanpa batasan usia dan latar belakang pendidikan tertentu, serta tertarik untuk menambah wawasan seputar pertanian.
+Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar belakang pendidikan tertentu, serta tertarik untuk menambah wawasan seputar pertanian.
 
 ### User Story
 
