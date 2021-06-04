@@ -71,8 +71,8 @@ AgriAsk ini adalah sebuah website forum diskusi yang dikhususkan untuk kalangan 
 ### Lainnya
 
 <ul>
-    <li> Task Management : Github </li>
-    <li> Software docs   : Google Slide </li>
+    <li> Task Management : Trello </li>
+    <li> Software documentation   : Google Slide </li>
     <li> Version control dan collaboration platform : Github </li>
 </ul>
 
