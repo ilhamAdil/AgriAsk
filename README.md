@@ -3,8 +3,9 @@
 <ul>
     <li> Pararel            : P1 </li>
     <li> Kelompok           : 5 </li>
-    <li> Asisten Praktikum  : </li>
 </ul>
+
+Asisten Praktikum :
 | Nama | NIM |
 | ---- | --- |
 | Indah Puspita | G64170035 |
