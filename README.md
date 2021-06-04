@@ -1,8 +1,10 @@
 # AgriAsk
 
-Pararel : P1
-Kelompok : 5
-Nama Asisten Praktikum :
+<ul>
+    <li> Pararel            : P1 </li>
+    <li> Kelompok           : 5 </li>
+    <li> Asisten Praktikum  : </li>
+</ul>
 | Nama | NIM |
 | ---- | --- |
 | Indah Puspita | G64170035 |
