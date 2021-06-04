@@ -135,11 +135,11 @@ Update password
 
 ## Hasil Implementasi
 
-###Screenshot Sistem
+### Screenshot Sistem
 
 ### Link Aplikasi
 
-Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk][demo-agriask]: ipb.link/agriask
+Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## Testing (Test Cases)
 
@@ -195,3 +195,5 @@ Pastikan server Apache dan MySQL berjalan di XAMPP
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+[demo-agriask]: ipb.link/agriask
