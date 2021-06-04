@@ -119,6 +119,8 @@ AgriAsk ini adalah sebuah website forum diskusi yang dikhususkan untuk kalangan 
 
 ## Saran untuk Pengembangan Berikutnya
 
+## Menjalankan Aplikasi Pada Localhost
+
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
 -   masuk ke direktori AgriAsk
