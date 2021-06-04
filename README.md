@@ -76,6 +76,30 @@ AgriAsk ini adalah sebuah website forum diskusi yang dikhususkan untuk kalangan 
     <li> Version control dan collaboration platform : Github </li>
 </ul>
 
+## Hasil dan Pembahasan
+
+### Use Case Diagram
+
+![use_case](https://user-images.githubusercontent.com/66185022/120827451-054ea480-c58e-11eb-8c5a-dcfc421e4e9c.png)
+
+### Activity Diagram
+
+### Class Diagram
+
+### Entity Relationship Diagram (ERD)
+
+![ERD](https://user-images.githubusercontent.com/66185022/120827582-2c0cdb00-c58e-11eb-80cf-1f8214348a99.png)
+
+### Software Architecture
+
+![Arsitektur_agriask](https://user-images.githubusercontent.com/66185022/120827674-4646b900-c58e-11eb-9487-049abc02a41a.png)
+
+### Fungsi Utama yang Dikembangkan
+
+### Fungsi CRUD
+
+## Hasil Implementasi
+
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
 -   masuk ke direktori AgriAsk
