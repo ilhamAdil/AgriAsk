@@ -111,6 +111,14 @@ AgriAsk ini adalah sebuah website forum diskusi yang dikhususkan untuk kalangan 
 
 ## Hasil Implementasi
 
+## Testing (Test Cases)
+
+### Positive Case
+
+### Negative Case
+
+## Saran untuk Pengembangan Berikutnya
+
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
 -   masuk ke direktori AgriAsk
