@@ -348,7 +348,17 @@ Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal ba
     <li>Kak Indah Puspita dan Qoriatul Khairunnisa selaku asisten praktikum karena telah memberikan masukan dan saran terhadap pengembangan aplikasi AgriAsk </li>
 </ol>
 
-## K. Cara Menjalankan Aplikasi Pada Localhost
+## K. Credits
+
+Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan sumbernya.
+
+<ul>
+    <li>[storyset]</li>
+    <li>[pixabay]</li>
+    <li>[unsplah]</li>
+</ul>
+
+## L. Cara Menjalankan Aplikasi Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
@@ -398,3 +408,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 [`Kembali Keatas ^`](#)
 
 [demo-agriask]: https://ipb.link/agriask
+[storyset]: https://storyset.com/
+[pixabay]: https://pixabay.com/
+[unsplash]: https://unsplash.com/
