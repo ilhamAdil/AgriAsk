@@ -184,8 +184,6 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
 
 #### 1. Landing Page
 
-Pada halaman ini, pengguna dapat melihat beberapa artikel
-
 <table>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120878204-6ce80c80-c5ed-11eb-9830-4e0ce83ed665.jpg"/></td>
@@ -221,6 +219,46 @@ Pada halaman ini, pengguna dapat melihat beberapa artikel
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890038-eeae5900-c632-11eb-8d93-5edb76331e8a.jpg"/></td>
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890081-37fea880-c633-11eb-80b4-d176f855ec06.jpg"/></td>
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890091-42b93d80-c633-11eb-87b9-5746470dd203.jpg"/></td>
+  </tr>
+</table>
+
+#### 5. Login, Register, Forgot Password
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890263-0b975c00-c634-11eb-9733-0f065ae319b7.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890280-25d13a00-c634-11eb-9bbd-995c44ff85fb.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890289-2ff33880-c634-11eb-81cd-e8810fdbd9b5.jpg"/></td>
+  </tr>
+</table>
+
+#### 6. Dashboard User : Overview
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890319-7c3e7880-c634-11eb-811d-d420e6d07fbc.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890325-8bbdc180-c634-11eb-80d4-2ecab692496b.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890331-95dfc000-c634-11eb-862c-51df5ada364c.jpg"/></td>
+  </tr>
+</table>
+
+#### 7. Dashboard User : Daftar Pertanyaan & Daftar Artikel
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890365-d63f3e00-c634-11eb-8973-62dea865ddf6.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890370-e2c39680-c634-11eb-9dba-6ca3a2d4a4ad.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890383-ece59500-c634-11eb-9829-a24b3c36f147.jpg"/></td>
+  </tr>
+</table>
+
+#### 8. Dashboard User : Pengaturan Akun
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890427-26b69b80-c635-11eb-8f89-fc6ab3510b98.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890435-32a25d80-c635-11eb-8859-0e015e15e22e.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890443-40f07980-c635-11eb-9072-41e2463686dc.jpg"/></td>
   </tr>
 </table>
 
