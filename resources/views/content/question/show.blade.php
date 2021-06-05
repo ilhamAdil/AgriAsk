@@ -212,15 +212,19 @@
                             <div>
                                 <div class="d-flex">
                                     <!-- upvote dan downvote -->
-                                    <form>
+                                    <form action="/community/{{ $answer->id }}" method="post">
                                     <div class="d-flex flex-column my-auto">
+                                    <button type="submit" name="upvote" style="background:none; padding=0; border=none;">
                                         <i class="bi bi-caret-up-fill upvote" style="font-size:1.5rem;"
                                             data-bs-toggle="tooltip" data-bs-placement="top"
                                             title="Upvote. Jawaban ini membantu"></i>
+                                    </button>
                                         <p class="fs-4 mb-0 mx-auto">0</p>
+                                    <button type="submit" name="downvote" style="background:none; padding=0; border=none;">
                                         <i class="bi bi-caret-down-fill downvote" style="font-size:1.5rem;"
                                             data-bs-toggle="tooltip" data-bs-placement="bottom"
                                             title="Downvote. Jawaban ini kurang membantu"></i>
+                                    </button>
                                     </div>
                                     </form>
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
@@ -228,13 +232,14 @@
                                     <div class="my-auto ms-2">
                                         <a href="/profile/overview.html" class="text-decoration-none text-dark">
                                              @foreach($answer->users as $user) 
-                                            <p class="ms-2 my-auto">{{ $user->username }}</p>
-                                             @endforeach
+                                            <p class="ms-2 my-auto">{{ $user->username }}</p>                                                                                       
                                         </a>
                                         <p class="ms-2 my-auto">
                                             <i class="bi bi-star-fill" style="color: orange;"></i>
-                                            <small><span class="text-muted align-text-top">30 poin</span>
+                                            <small><span class="text-muted align-text-top">
+                                            {{ $user->pivot->sum('poin') }}</span>
                                             </small>
+                                            @endforeach                                             
                                         </p>
                                     </div>
                                 </div>

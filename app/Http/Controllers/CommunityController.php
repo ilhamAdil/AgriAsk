@@ -10,6 +10,7 @@ use App\Article;
 use App\Tag;
 use App\Answer_has_user;
 use App\Tag_has_question;
+use DB;
 use Auth;
 
 class CommunityController extends Controller
@@ -78,6 +79,7 @@ class CommunityController extends Controller
             "title" => $request["title"],
             "body" => $request["body"]
         ]);
+
         return redirect('/community');
     }
 
@@ -93,6 +95,7 @@ class CommunityController extends Controller
             "body" => $request["comment"],
             "question_id" => $id
         ]);
+
         $user = User::find(Auth::id());   
         $answer->users()->sync($user);     
 
@@ -108,7 +111,7 @@ class CommunityController extends Controller
 
         $question = Question::find($id);            
         $answers = Answer::where('question_id',$id)->get();
-
+  
         return view('content.question.show', compact('answers','question'));
     }
  
