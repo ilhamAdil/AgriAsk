@@ -65,36 +65,28 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 
 ### Software
 
-<ul>
-    <li> Database       : MySQL </li>
-    <li> Server         : Apache </li>
-    <li> Text Editor    : Visual Studio Code </li>
-    <li> UI Design      : Figma </li>
-</ul>
+| Database | MySQL |
+| Server | Apache |
+| Text Editor | Visual Studio Code |
+| UI Design | Figma |
 
 ### Hardware
 
-<ul>
-    <li> Prosesor       : Acer Intel Core i3-8130U 2.20GHz </li>
-    <li> Memori         : 8 GB DDR4 </li>
-    <li> Graphic card   : NVIDIA GeForce MX150 2GB VRAM </li>
-    <li> Storage        : HDD 1 TB </li>
-</ul>
+| Prosesor | Acer Intel Core i3-8130U 2.20GHz |
+| Memori | 8 GB DDR4 |
+| Graphic card | NVIDIA GeForce MX150 2GB VRAM |
+| Storage | HDD 1 TB |
 
 ### Tech Stack
 
-<ul>
-    <li> Front-end       : HTML, CSS/SCSS/SASS, Bootstrap, Vanilla Javascript </li>
-    <li> Back-end        : PHP, Laravel, NodeJS </li>
-</ul>
+| Front-end | HTML, CSS/SCSS/SASS, Bootstrap, Vanilla Javascript |
+| Back-end | PHP, Laravel, NodeJS |
 
 ### Lainnya
 
-<ul>
-    <li> Task Management : Trello </li>
-    <li> Software documentation   : Google Slide </li>
-    <li> Version control dan collaboration platform : Github </li>
-</ul>
+| Task Management | Trello |
+| Software documentation | Google Slide |
+| Version control dan collaboration platform | Github |
 
 ## Hasil dan Pembahasan
 
