@@ -98,27 +98,22 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 
 ## Hasil dan Pembahasan
 
+Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfokus pada analisis sistem. Mulai dari menganalisis user flow, use case diagram, activity diagram, dan sebagainya. Setelah UTS, 7 minggu berikutnya Kami fokus pada pengembangan aplikasi AgriAsk. Di sisi front-end, Kami sangat memperhatikan design aplikasi web yang responsive pada semua ukuran layar, lebih tepatnya menggunakan pendekatan Mobile First. Karena tidak dipungkiri bahwa, dari 272,1 juta penduduk Indonesia sebanyak 175.4 juta adalah pengguna aktif internet yang mayoritas mengakses web menggunakan perangkat mobile (Survey dari We Are Social). Selanjutnya, karena Kita mengoleksi data pengguna (email dan password), Kita turut memperhatikan aspek keamanan dari pengguna AgriAsk. Pada bagian back-end, Kami menerapkan beberapa metode pengamanan salah satunya adalah password hashing.
+
 ### Use Case Diagram
 
 ![use_case](https://user-images.githubusercontent.com/66185022/120827451-054ea480-c58e-11eb-8c5a-dcfc421e4e9c.png)
 
 ### Activity Diagram
 
-Mendaftar akun
-
----
+> Mendaftar akun
 
 ![activity_diagram_register](https://user-images.githubusercontent.com/66185022/120842949-0983bd80-c5a0-11eb-9952-319bd0cc14c0.jpg)
 
-Login
+> Login
+> ![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120845622-a85de900-c5a3-11eb-8350-d65e4b044525.jpg)
 
----
-
-![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120845622-a85de900-c5a3-11eb-8350-d65e4b044525.jpg)
-
-Update password
-
----
+> Update password
 
 ![activity_diagram_lupaPassword](https://user-images.githubusercontent.com/66185022/120845328-3f767100-c5a3-11eb-8695-d44062be0cd0.jpg)
 
