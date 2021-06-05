@@ -120,11 +120,9 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 
 ### E.3 Class Diagram
 
-![erdBaru2](https://user-images.githubusercontent.com/66354919/120881874-6a41e300-c5fe-11eb-9da9-8af09449f663.png)
-
 ### E.4 Entity Relationship Diagram (ERD)
 
-![ERD](https://user-images.githubusercontent.com/66185022/120827582-2c0cdb00-c58e-11eb-80cf-1f8214348a99.png)
+![erdBaru2](https://user-images.githubusercontent.com/66354919/120881888-86458480-c5fe-11eb-9f69-678b09f158e8.png)
 
 ### E.5 Software Architecture
 
