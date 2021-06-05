@@ -126,6 +126,7 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 
 ### D.5 Software Architecture
 
+Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai pengembangan aplikasi web yang rapi secara kode, memiliki skalabilitas, dan kemampuan didalam memperbaiki kode secara cepat dengan usaha yang sedikit.
 ![Arsitektur_agriask](https://user-images.githubusercontent.com/66185022/120827674-4646b900-c58e-11eb-9487-049abc02a41a.png)
 
 ### D.6 Fungsi Utama yang Dikembangkan
