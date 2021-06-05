@@ -303,7 +303,7 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
 ![image](https://user-images.githubusercontent.com/66185022/120890857-ead10580-c637-11eb-9331-9a8bd685d317.png)
 ![image](https://user-images.githubusercontent.com/66185022/120890871-ffad9900-c637-11eb-96c7-d126bf228098.png)
 
-##### 9. Dashboard User : Pengaturan Akun
+#### 9. Dashboard User : Pengaturan Akun
 
 ![image](https://user-images.githubusercontent.com/66185022/120890900-384d7280-c638-11eb-8c2a-7e97186328df.png)
 ![image](https://user-images.githubusercontent.com/66185022/120890910-4ac7ac00-c638-11eb-89a2-60168136e320.png)
