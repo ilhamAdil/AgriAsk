@@ -28,11 +28,11 @@ Asisten Praktikum :
 
 <img src="https://user-images.githubusercontent.com/66185022/120875574-107df080-c5df-11eb-8cf5-c343c5a9d643.jpg" width="310px" height="auto" />
 
-## Latar Belakang
+## A. Latar Belakang
 
 Sejak awal pandemi Covid-19, sektor pertanian diklaim menjadi penopang utama perekonomian nasional. Data Badan Pusat Statistik (BPS) menunjukkan, selama kuartal II/2020, pertanian tumbuh sebesar 16,24%. Peneliti dari Center of Food, Energy and Sustainable Development dari Indef, Rusli Abdullah, juga menyatakan bahwa pertumbuhan tersebut masih akan terus terjadi selama pandemi sampai pasca pandemi covid-19. Sebab, penerapan kebijakan karantina wilayah mengakibatkan masyarakat beralih profesi menjadi petani. Dengan demikian, Kami berinisiatif membangun sebuah wadah untuk menfasilitasi para petani yang masih amatir tersebut. Hadirlah AgriAsk, sebuah aplikasi berbasis web yang menyediakan forum diskusi tanya jawab untuk para petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi. Juga bertujuan untuk menggaungkan sektor pertanian secara luas.
 
-## Tujuan
+## B. Tujuan
 
 <ol>
     <li>Mewadahi para petani atau masyarakat Indonesia untuk saling bertukar pikiran dan informasi di bidang pertanian</li>
@@ -40,13 +40,13 @@ Sejak awal pandemi Covid-19, sektor pertanian diklaim menjadi penopang utama per
     <li>Menambah relasi antar petani dalam menlangsungkan kegiatan pertaniannya.</li>
 </ol>
 
-## User Analisis
+## C. User Analisis
 
-### User Profile
+### C.1 User Profile
 
 Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar belakang pendidikan tertentu, serta tertarik untuk menambah wawasan seputar pertanian.
 
-### User Story
+### C.2 User Story
 
 <ul>
     <li>Sebagai seorang petani, saya ingin berdiskusi dan bertanya mengenai pertanian dan teknologinya agar dapat menemukan solusi dari permasalahan saya. </li>
@@ -61,9 +61,9 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
     <li>Sebagai seorang masyarakat umum, saya dapat mencari informasi seputar pertanian agar menambah wawasan saya.</li>
 </ul>
 
-## Spesifikasi Teknis Lingkungan Pengembangan
+## C.3 Spesifikasi Teknis Lingkungan Pengembangan
 
-### Software
+### C.3.1 Software
 
 | Komponen    | Teknologi          |
 | ----------- | ------------------ |
@@ -72,7 +72,7 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Text Editor | Visual Studio Code |
 | UI Design   | Figma              |
 
-### Hardware
+### C.3.2 Hardware
 
 | Komponen     | Teknologi                        |
 | ------------ | -------------------------------- |
@@ -81,14 +81,14 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Graphic card | NVIDIA GeForce MX150 2GB VRAM    |
 | Storage      | HDD 1 TB                         |
 
-### Tech Stack
+### C.3.3 Tech Stack
 
 | Komponen  | Teknologi                                          |
 | --------- | -------------------------------------------------- |
 | Front-end | HTML, CSS/SCSS/SASS, Bootstrap, Vanilla Javascript |
 | Back-end  | PHP, Laravel, NodeJS                               |
 
-### Lainnya
+### C.3.4 Lainnya
 
 | Komponen                                   | Teknologi    |
 | ------------------------------------------ | ------------ |
@@ -96,15 +96,15 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Software documentation                     | Google Slide |
 | Version control dan collaboration platform | Github       |
 
-## Hasil dan Pembahasan
+## D. Hasil dan Pembahasan
 
 Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfokus pada analisis sistem. Mulai dari menganalisis user flow, use case diagram, activity diagram, dan sebagainya. Setelah UTS, 7 minggu berikutnya Kami fokus pada pengembangan aplikasi AgriAsk. Di sisi front-end, Kami sangat memperhatikan design aplikasi web yang responsive pada semua ukuran layar, lebih tepatnya menggunakan pendekatan Mobile First. Karena tidak dipungkiri bahwa, dari 272,1 juta penduduk Indonesia sebanyak 175.4 juta adalah pengguna aktif internet yang mayoritas mengakses web menggunakan perangkat mobile (Survey dari We Are Social). Selanjutnya, karena Kita mengoleksi data pengguna (email dan password), Kita turut memperhatikan aspek keamanan dari pengguna AgriAsk. Pada bagian back-end, Kami menerapkan beberapa metode pengamanan salah satunya adalah password hashing.
 
-### Use Case Diagram
+### D.1 Use Case Diagram
 
 ![use_case](https://user-images.githubusercontent.com/66185022/120827451-054ea480-c58e-11eb-8c5a-dcfc421e4e9c.png)
 
-### Activity Diagram
+### D.2 Activity Diagram
 
 > Mendaftar akun
 
@@ -118,17 +118,17 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 
 ![activity_diagram_lupaPassword](https://user-images.githubusercontent.com/66185022/120845328-3f767100-c5a3-11eb-8695-d44062be0cd0.jpg)
 
-### Class Diagram
+### D.3 Class Diagram
 
-### Entity Relationship Diagram (ERD)
+### D.4 Entity Relationship Diagram (ERD)
 
 ![ERD](https://user-images.githubusercontent.com/66185022/120827582-2c0cdb00-c58e-11eb-80cf-1f8214348a99.png)
 
-### Software Architecture
+### D.5 Software Architecture
 
 ![Arsitektur_agriask](https://user-images.githubusercontent.com/66185022/120827674-4646b900-c58e-11eb-9487-049abc02a41a.png)
 
-### Fungsi Utama yang Dikembangkan
+### D.6 Fungsi Utama yang Dikembangkan
 
 <ul>
     <li> User dapat mendaftar terlebih dahulu menggunakan alamat email di website AgriAsk untuk menggunakan fasilitas yang ada. </li>
@@ -138,7 +138,7 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
     <li> Jika komentar/jawaban dari user lain sekiranya membantu menjawab pertanyaan dari user yang mengajukan pertanyaan, maka user-user yang terdaftar di website dapat menambahkan skor kepada user yang menjawab dengan menekan tombol commend. Tombol commend akan menambah 10 poin kepada user yang menjawab. Jika jawaban tidak membantu, user lain dapat menekan tombol uncommend yang akan mengakibatkan pengurangan poin sebesar 5 kepada user yang menjawab. </li>
 </ul>
 
-### Fungsi CRUD
+### D.7 Fungsi CRUD
 
 > Create
 
@@ -177,25 +177,25 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
     <li>Menghapus artikel</li>
 </ul>
 
-## Hasil Implementasi
+## E. Hasil Implementasi
 
-### Versi Mobile
+### E.1 Versi Mobile
 
-### Versi Desktop
+### E.2 Versi Desktop
 
-### Link Aplikasi
+### E.3 Link Aplikasi
 
 Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
-## Testing (Test Cases)
+## F. Testing (Test Cases)
 
-### Positive Case
+### F.1 Positive Case
 
-### Negative Case
+### F.2 Negative Case
 
-## Kesimpulan
+## G. Kesimpulan
 
-## Saran untuk Pengembangan Berikutnya
+## H. Saran untuk Pengembangan Berikutnya
 
 <ol>
   <li>Sebaiknya, gunakan domain (beli) agriask.com</li>
@@ -203,7 +203,7 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
     <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
 </ol>
 
-## Cara Menjalankan Aplikasi Pada Localhost
+## I. Cara Menjalankan Aplikasi Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
@@ -249,8 +249,7 @@ Pastikan server Apache dan MySQL berjalan di XAMPP
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-[`Kembali Keatas ^`]
-
-[demo-agriask]: https://ipb.link/agriask
 
 [`Kembali Keatas ^`](#)
+
+[demo-agriask]: https://ipb.link/agriask
