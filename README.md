@@ -1,5 +1,11 @@
 # AgriAsk
 
+![ss](https://user-images.githubusercontent.com/66185022/120874266-7fa41680-c5d8-11eb-86a5-56df830ea8b1.png)
+
+> AgriAsk merupakan aplikasi berbasis web yang menyediakan fasilitas forum diskusi tanya jawab antar petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi. Project ini juga bertujuan untuk menggaungkan pertanian secara global dan membangun image bahwa pertanian itu tidak kuno.
+
+# Laporan Akhir Projek
+
 <ul>
     <li> Pararel            : P1 </li>
     <li> Kelompok           : 5 </li>
@@ -11,7 +17,7 @@ Asisten Praktikum :
 | Indah Puspita | G64170035 |
 | Qoriatul Khairunnisa | G64170014 |
 
-## Anggota Kelompok dan Masing-Masing Role
+## Developer AgriAsk
 
 | Nama                      | NIM       | ROLE                                 |
 | ------------------------- | --------- | ------------------------------------ |
