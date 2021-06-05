@@ -4,7 +4,7 @@
 
 > AgriAsk merupakan aplikasi berbasis web yang menyediakan fasilitas forum diskusi tanya jawab antar petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi.
 
-## Laporan Akhir Projek
+## Laporan Akhir Projek Rekayasa Perangkat Lunak (KOM331)
 
 <ul>
     <li> Pararel            : P1 </li>
@@ -98,7 +98,7 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 
 ## E. Hasil dan Pembahasan
 
-Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfokus pada analisis sistem. Mulai dari menganalisis user flow, use case diagram, activity diagram, dan sebagainya. Setelah UTS, 7 minggu berikutnya Kami fokus pada pengembangan aplikasi AgriAsk. Di sisi front-end, Kami sangat memperhatikan design aplikasi web yang responsive pada semua ukuran layar, lebih tepatnya menggunakan pendekatan Mobile First. Karena tidak dipungkiri bahwa, dari 272,1 juta penduduk Indonesia sebanyak 175.4 juta adalah pengguna aktif internet yang mayoritas mengakses web menggunakan perangkat mobile (Survey dari We Are Social). Selanjutnya, karena Kita mengoleksi data pengguna (email dan password), Kita turut memperhatikan aspek keamanan dari pengguna AgriAsk. Pada bagian back-end, Kami menerapkan beberapa metode pengamanan salah satunya adalah password hashing.
+Pada mata kuliah ini, 7 minggu pertama Kami berfokus pada analisis sistem. Mulai dari menganalisis user flow, use case diagram, activity diagram, dan sebagainya. Setelah UTS, 7 minggu berikutnya Kami fokus pada pengembangan aplikasi AgriAsk. Di sisi front-end, Kami sangat memperhatikan design aplikasi web yang responsive pada semua ukuran layar, lebih tepatnya menggunakan pendekatan Mobile First. Karena tidak dipungkiri bahwa, dari 272,1 juta penduduk Indonesia sebanyak 175.4 juta adalah pengguna aktif internet yang mayoritas mengakses web menggunakan perangkat mobile (Survey dari We Are Social). Selanjutnya, karena Kita mengoleksi data pengguna (email dan password), Kita turut memperhatikan aspek keamanan dari pengguna AgriAsk. Pada bagian back-end, Kami menerapkan beberapa metode pengamanan salah satunya adalah password hashing.
 
 ### E.1 Use Case Diagram
 
