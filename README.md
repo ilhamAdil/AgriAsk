@@ -264,6 +264,50 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
 
 ### F.2 Versi Desktop
 
+#### 1. Landing Page
+
+![ss](https://user-images.githubusercontent.com/66185022/120874266-7fa41680-c5d8-11eb-86a5-56df830ea8b1.png)
+![image](https://user-images.githubusercontent.com/66185022/120890594-692ca800-c636-11eb-96ab-5e74e0968c1c.png)
+
+### 2. Komunitas
+
+![image](https://user-images.githubusercontent.com/66185022/120890634-aee97080-c636-11eb-88c5-60eb7616498c.png)
+![image](https://user-images.githubusercontent.com/66185022/120890647-c32d6d80-c636-11eb-8446-181ca45312ef.png)
+![image](https://user-images.githubusercontent.com/66185022/120890659-db9d8800-c636-11eb-81b8-01f02bb7a64c.png)
+![image](https://user-images.githubusercontent.com/66185022/120890674-ea843a80-c636-11eb-8487-644c981e8623.png)
+
+#### 3. Detail Pertanyaan
+
+![image](https://user-images.githubusercontent.com/66185022/120890697-0e478080-c637-11eb-9a0c-881a24a3c91c.png)
+![image](https://user-images.githubusercontent.com/66185022/120890709-1c959c80-c637-11eb-954b-52b75cebc8a5.png)
+
+#### 4. Frequently Ask Questions (FAQ)
+
+![image](https://user-images.githubusercontent.com/66185022/120890727-3636e400-c637-11eb-8940-4994ebdd7321.png)
+
+#### 5. Login
+
+![image](https://user-images.githubusercontent.com/66185022/120890769-68484600-c637-11eb-8068-ceb12a2dcf5f.png)
+
+#### 6. Register
+
+![image](https://user-images.githubusercontent.com/66185022/120890780-7a29e900-c637-11eb-9a24-283f2a2b0553.png)
+
+#### 7. Forgot Password
+
+![image](https://user-images.githubusercontent.com/66185022/120890817-aa718780-c637-11eb-9065-c05e583b9740.png)
+
+##### 8. Dashboard User
+
+![image](https://user-images.githubusercontent.com/66185022/120890844-d5f47200-c637-11eb-8928-be496537f110.png)
+![image](https://user-images.githubusercontent.com/66185022/120890857-ead10580-c637-11eb-9331-9a8bd685d317.png)
+![image](https://user-images.githubusercontent.com/66185022/120890871-ffad9900-c637-11eb-96c7-d126bf228098.png)
+
+##### 9. Dashboard User : Pengaturan Akun
+
+![image](https://user-images.githubusercontent.com/66185022/120890900-384d7280-c638-11eb-8c2a-7e97186328df.png)
+![image](https://user-images.githubusercontent.com/66185022/120890910-4ac7ac00-c638-11eb-89a2-60168136e320.png)
+
 ### F.3 Link Aplikasi
 
 Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
