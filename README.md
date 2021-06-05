@@ -358,7 +358,7 @@ Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan
 
 [unsplash]
 
-## L. Cara Menjalankan Aplikasi Pada Localhost
+## L. Cara Menjalankan Aplikasi AgriAsk Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
@@ -380,6 +380,12 @@ $ composer install
 
 ```bash
 $ php artisan key:generate
+```
+
+-   install node modules (pastikan nodejs sudah terinstall)
+
+```bash
+npm install
 ```
 
 -   Sesuaikan nama database, username dan password nya di file .env dengan database kalian.
