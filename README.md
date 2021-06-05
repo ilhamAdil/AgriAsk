@@ -352,11 +352,11 @@ Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal ba
 
 Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan sumbernya.
 
-<ul>
-    <li>[storyset]</li>
-    <li>[pixabay]</li>
-    <li>[unsplah]</li>
-</ul>
+[storyset]
+
+[pixabay]
+
+[unsplah]
 
 ## L. Cara Menjalankan Aplikasi Pada Localhost
 
