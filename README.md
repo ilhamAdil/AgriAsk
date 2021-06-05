@@ -190,7 +190,37 @@ Pada halaman ini, pengguna dapat melihat beberapa artikel
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120878204-6ce80c80-c5ed-11eb-9830-4e0ce83ed665.jpg"/></td>
     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120878237-9bfe7e00-c5ed-11eb-863e-dd2c71873913.jpg"/></td>
-     <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120878241-a3258c00-c5ed-11eb-9c5a-2492e719e6fe.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120878241-a3258c00-c5ed-11eb-9c5a-2492e719e6fe.jpg"/></td>
+  </tr>
+</table>
+
+#### 2. Komunitas
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889928-32549300-c632-11eb-9993-ce220bd4611a.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889935-3ed8eb80-c632-11eb-88c5-4f4cc2adab35.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889942-4b5d4400-c632-11eb-9e36-dda448cfabf8.jpg"/></td>
+  </tr>
+</table>
+
+#### 3. Detail Pertanyaan
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889980-8fe8df80-c632-11eb-8e72-c1839b16760c.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889988-9d9e6500-c632-11eb-8a2f-4075e0a3fe15.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120889994-a98a2700-c632-11eb-80f3-1c69e1bc3d22.jpg"/></td>
+  </tr>
+</table>
+
+#### 4. Frequently Ask Questions (FAQ)
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890038-eeae5900-c632-11eb-8d93-5edb76331e8a.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890081-37fea880-c633-11eb-80b4-d176f855ec06.jpg"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/66185022/120890091-42b93d80-c633-11eb-87b9-5746470dd203.jpg"/></td>
   </tr>
 </table>
 
