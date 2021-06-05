@@ -195,6 +195,8 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## G. Kesimpulan
 
+Dengan waktu yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel dan berkomentar pada artikel belum berhasil diimplementasikan.
+
 ## H. Saran untuk Pengembangan Berikutnya
 
 <ol>
@@ -203,7 +205,17 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
     <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
 </ol>
 
-## I. Cara Menjalankan Aplikasi Pada Localhost
+## I. Ucapan Terima Kasih
+
+Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal baru dalam bidang software engineering, mulai dari task management, user analisis, stakeholder, dan sebagainya. Maka dari itu, Kami ingin mengucapkan rasa terima kasih kepada:
+
+<ol>
+    <li>IPB University sebagai kampus tercinta</li>
+    <li>Para dosen Ilmu Komputer IPB University, karena telah membagikan ilmu dan pengalamannya kepada Kami</li>
+    <li>Kak Indah Puspita dan Qoriatul Khairunnisa, karena telah memberikan masukan dan saran terhadap pengembangan aplikasi AgriAsk </li>
+</ol>
+
+## J. Cara Menjalankan Aplikasi Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
