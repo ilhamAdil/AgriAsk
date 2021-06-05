@@ -141,9 +141,48 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 
 ### Fungsi CRUD
 
+> Create
+
+<ul>
+    <li>Membuat akun pada aplikasi web AgriAsk</li>
+    <li>Membuat dan menjawab pertanyaan</li>
+    <li>Membuat dan berkomentar pada artikel</li>
+</ul>
+
+> Read
+
+<ul>
+    <li>Membaca user input (email dan password) pada akun pengguna saat login</li>
+    <li>Menampilkan daftar pertanyaan</li>
+    <li>Menampilkan daftar pengguna AgriAsk</li>
+    <li>Pada dashboard user, menampilkan total mengajukan dan menjawab pertanyaan, serta total artikel</li>
+</ul>
+
+> Update
+
+<ul>
+    <li>Mengedit pertanyaan</li>
+    <li>Mengubah kata sandi</li>
+    <li>Mengedit artikel </li>
+    <li>Menambah poin kredibilitas sebagai reputasi pengguna </li>
+    <li>Mengganti nama dan username</li>
+    <li>Menambahkan foto profil pada pengguna</li>
+    <li>Menambah atau mengurangi total upvote atau downvote pada pertanyaan</li>
+</ul>
+
+> Delete
+
+<ul>
+    <li>Menghapus pertanyaan</li>
+    <li>Menghapus komentar pada pertanyaan</li>
+    <li>Menghapus artikel</li>
+</ul>
+
 ## Hasil Implementasi
 
-### Screenshot Sistem
+### Versi Mobile
+
+### Versi Desktop
 
 ### Link Aplikasi
 
