@@ -182,6 +182,13 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
 
 ### E.1 Versi Mobile
 
+1. Landing Page
+    > Pada halaman ini, pengguna dapat melihat beberapa artikel
+
+![190062](https://user-images.githubusercontent.com/66185022/120878204-6ce80c80-c5ed-11eb-9830-4e0ce83ed665.jpg)
+![190063](https://user-images.githubusercontent.com/66185022/120878237-9bfe7e00-c5ed-11eb-863e-dd2c71873913.jpg)
+![190064](https://user-images.githubusercontent.com/66185022/120878241-a3258c00-c5ed-11eb-9c5a-2492e719e6fe.jpg)
+
 ### E.2 Versi Desktop
 
 ### E.3 Link Aplikasi
@@ -196,7 +203,7 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## G. Kesimpulan
 
-Dengan waktu yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel dan berkomentar pada artikel belum berhasil diimplementasikan.
+Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel dan berkomentar pada artikel belum berhasil diimplementasikan.
 
 ## H. Saran untuk Pengembangan Berikutnya
 
