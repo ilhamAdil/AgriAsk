@@ -340,8 +340,8 @@ Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal ba
 
 <ol>
     <li>IPB University sebagai kampus tercinta</li>
-    <li>Para dosen Ilmu Komputer IPB University, karena telah membagikan ilmu dan pengalamannya kepada Kami</li>
-    <li>Kak Indah Puspita dan Qoriatul Khairunnisa, karena telah memberikan masukan dan saran terhadap pengembangan aplikasi AgriAsk </li>
+    <li>Para dosen Ilmu Komputer IPB University karena telah membagikan ilmu dan pengalamannya kepada Kami</li>
+    <li>Kak Indah Puspita dan Qoriatul Khairunnisa selaku asisten praktikum karena telah memberikan masukan dan saran terhadap pengembangan aplikasi AgriAsk </li>
 </ol>
 
 ## K. Cara Menjalankan Aplikasi Pada Localhost
