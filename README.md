@@ -61,9 +61,9 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
     <li>Sebagai seorang masyarakat umum, saya dapat mencari informasi seputar pertanian agar menambah wawasan saya.</li>
 </ul>
 
-## C.3 Spesifikasi Teknis Lingkungan Pengembangan
+## D Spesifikasi Teknis Lingkungan Pengembangan
 
-### C.3.1 Software
+### D.1 Software
 
 | Komponen    | Teknologi          |
 | ----------- | ------------------ |
@@ -72,7 +72,7 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Text Editor | Visual Studio Code |
 | UI Design   | Figma              |
 
-### C.3.2 Hardware
+### D.2 Hardware
 
 | Komponen     | Teknologi                        |
 | ------------ | -------------------------------- |
@@ -81,14 +81,14 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Graphic card | NVIDIA GeForce MX150 2GB VRAM    |
 | Storage      | HDD 1 TB                         |
 
-### C.3.3 Tech Stack
+### D.3 Tech Stack
 
 | Komponen  | Teknologi                                          |
 | --------- | -------------------------------------------------- |
 | Front-end | HTML, CSS/SCSS/SASS, Bootstrap, Vanilla Javascript |
 | Back-end  | PHP, Laravel, NodeJS                               |
 
-### C.3.4 Lainnya
+### D.4 Lainnya
 
 | Komponen                                   | Teknologi    |
 | ------------------------------------------ | ------------ |
@@ -96,15 +96,15 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Software documentation                     | Google Slide |
 | Version control dan collaboration platform | Github       |
 
-## D. Hasil dan Pembahasan
+## E. Hasil dan Pembahasan
 
 Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfokus pada analisis sistem. Mulai dari menganalisis user flow, use case diagram, activity diagram, dan sebagainya. Setelah UTS, 7 minggu berikutnya Kami fokus pada pengembangan aplikasi AgriAsk. Di sisi front-end, Kami sangat memperhatikan design aplikasi web yang responsive pada semua ukuran layar, lebih tepatnya menggunakan pendekatan Mobile First. Karena tidak dipungkiri bahwa, dari 272,1 juta penduduk Indonesia sebanyak 175.4 juta adalah pengguna aktif internet yang mayoritas mengakses web menggunakan perangkat mobile (Survey dari We Are Social). Selanjutnya, karena Kita mengoleksi data pengguna (email dan password), Kita turut memperhatikan aspek keamanan dari pengguna AgriAsk. Pada bagian back-end, Kami menerapkan beberapa metode pengamanan salah satunya adalah password hashing.
 
-### D.1 Use Case Diagram
+### E.1 Use Case Diagram
 
 ![use_case](https://user-images.githubusercontent.com/66185022/120827451-054ea480-c58e-11eb-8c5a-dcfc421e4e9c.png)
 
-### D.2 Activity Diagram
+### E.2 Activity Diagram
 
 > Mendaftar akun
 
@@ -118,18 +118,18 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 
 ![activity_diagram_lupaPassword](https://user-images.githubusercontent.com/66185022/120845328-3f767100-c5a3-11eb-8695-d44062be0cd0.jpg)
 
-### D.3 Class Diagram
+### E.3 Class Diagram
 
-### D.4 Entity Relationship Diagram (ERD)
+### E.4 Entity Relationship Diagram (ERD)
 
 ![ERD](https://user-images.githubusercontent.com/66185022/120827582-2c0cdb00-c58e-11eb-80cf-1f8214348a99.png)
 
-### D.5 Software Architecture
+### E.5 Software Architecture
 
 Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai pengembangan aplikasi web yang rapi secara kode, memiliki skalabilitas, dan kemampuan didalam memperbaiki kode secara cepat dengan usaha yang sedikit.
 ![Arsitektur_agriask](https://user-images.githubusercontent.com/66185022/120827674-4646b900-c58e-11eb-9487-049abc02a41a.png)
 
-### D.6 Fungsi Utama yang Dikembangkan
+### E.6 Fungsi Utama yang Dikembangkan
 
 <ul>
     <li> User dapat mendaftar terlebih dahulu menggunakan alamat email di website AgriAsk untuk menggunakan fasilitas yang ada. </li>
@@ -139,7 +139,7 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
     <li> Jika komentar/jawaban dari user lain sekiranya membantu menjawab pertanyaan dari user yang mengajukan pertanyaan, maka user-user yang terdaftar di website dapat menambahkan skor kepada user yang menjawab dengan menekan tombol commend. Tombol commend akan menambah 10 poin kepada user yang menjawab. Jika jawaban tidak membantu, user lain dapat menekan tombol uncommend yang akan mengakibatkan pengurangan poin sebesar 5 kepada user yang menjawab. </li>
 </ul>
 
-### D.7 Fungsi CRUD
+### E.7 Fungsi CRUD
 
 > Create
 
@@ -178,11 +178,11 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
     <li>Menghapus artikel</li>
 </ul>
 
-## E. Hasil Implementasi
+## F. Hasil Implementasi
 
-### E.1 Versi Mobile
+### F.1 Versi Mobile
 
-#### Landing Page
+#### 1. Landing Page
 
 Pada halaman ini, pengguna dapat melihat beberapa artikel
 
@@ -194,23 +194,23 @@ Pada halaman ini, pengguna dapat melihat beberapa artikel
   </tr>
 </table>
 
-### E.2 Versi Desktop
+### F.2 Versi Desktop
 
-### E.3 Link Aplikasi
+### F.3 Link Aplikasi
 
 Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
-## F. Testing (Test Cases)
+## G. Testing (Test Cases)
 
-### F.1 Positive Case
+### G.1 Positive Case
 
-### F.2 Negative Case
+### G.2 Negative Case
 
-## G. Kesimpulan
+## H. Kesimpulan
 
 Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel dan berkomentar pada artikel belum berhasil diimplementasikan.
 
-## H. Saran untuk Pengembangan Berikutnya
+## I. Saran untuk Pengembangan Berikutnya
 
 <ol>
   <li>Sebaiknya, gunakan domain (beli) agriask.com</li>
@@ -218,7 +218,7 @@ Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil memb
     <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
 </ol>
 
-## I. Ucapan Terima Kasih
+## J. Ucapan Terima Kasih
 
 Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal baru dalam bidang software engineering, mulai dari task management, user analisis, stakeholder, dan sebagainya. Maka dari itu, Kami ingin mengucapkan rasa terima kasih kepada:
 
@@ -228,7 +228,7 @@ Selama pengembangan aplikasi AgriAsk ini, tim Kami banyak mempelajari hal-hal ba
     <li>Kak Indah Puspita dan Qoriatul Khairunnisa, karena telah memberikan masukan dan saran terhadap pengembangan aplikasi AgriAsk </li>
 </ol>
 
-## J. Cara Menjalankan Aplikasi Pada Localhost
+## K. Cara Menjalankan Aplikasi Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
