@@ -122,6 +122,10 @@ Pada mata kuliah ini, 7 minggu pertama Kami berfokus pada analisis sistem. Mulai
 
 ![activity_diagram_create_questions](https://user-images.githubusercontent.com/66185022/120892823-a1d27e80-c642-11eb-8e74-f86fb2da5a0b.jpg)
 
+> Membuat artikel
+
+![activity_diagram_create_article](https://user-images.githubusercontent.com/66185022/120893220-aef06d00-c644-11eb-9800-7ff489d6993d.jpg)
+
 ### E.3 Class Diagram
 
 ### E.4 Entity Relationship Diagram (ERD)
