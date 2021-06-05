@@ -93,7 +93,7 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 | Komponen                                   | Teknologi    |
 | ------------------------------------------ | ------------ |
 | Task Management                            | Trello       |
-| Software documentation                     | Google Slide |
+| Software documentation                     | Google Sites |
 | Version control dan collaboration platform | Github       |
 
 ## E. Hasil dan Pembahasan
