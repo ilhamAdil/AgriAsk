@@ -36,8 +36,8 @@ Sejak awal pandemi Covid-19, sektor pertanian diklaim menjadi penopang utama per
 
 <ol>
     <li>Mewadahi para petani atau masyarakat Indonesia untuk saling bertukar pikiran dan informasi di bidang pertanian</li>
-    <li>Menguatkan sektor pertanian selagi masa pandemi</li>
-    <li>Menambah relasi antar petani dalam menlangsungkan kegiatan pertaniannya.</li>
+    <li>Menambah relasi antar petani dalam melangsungkan kegiatan pertaniannya.</li>
+    <li>Menguatkan sektor pertanian</li>
 </ol>
 
 ## C. User Analisis
@@ -117,6 +117,10 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 > Update password
 
 ![activity_diagram_lupaPassword](https://user-images.githubusercontent.com/66185022/120845328-3f767100-c5a3-11eb-8695-d44062be0cd0.jpg)
+
+> Membuat pertanyaan
+
+![activity_diagram_create_questions](https://user-images.githubusercontent.com/66185022/120892823-a1d27e80-c642-11eb-8e74-f86fb2da5a0b.jpg)
 
 ### E.3 Class Diagram
 
@@ -325,8 +329,8 @@ Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil memb
 ## I. Saran untuk Pengembangan Berikutnya
 
 <ol>
-  <li>Sebaiknya, gunakan domain (beli) agriask.com</li>
-    <li>Untuk pengembangan berikutnya, dapat mempertimbangkan fitur Progressive Web Apps (PWA), sehingga aplikasi web seolah-olah menjadi native dan dapat di install pada perangkat mobile</li>
+  <li>Sebaiknya, gunakan domain (beli) agriask.com saat sudah di tahap production.</li>
+    <li>Untuk pengembangan berikutnya, dapat mempertimbangkan fitur Progressive Web Apps (PWA), sehingga aplikasi web seolah-olah menjadi native dan dapat di install pada perangkat mobile.</li>
     <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
 </ol>
 
