@@ -182,8 +182,9 @@ Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai 
 
 ### E.1 Versi Mobile
 
-1. Landing Page
-   Pada halaman ini, pengguna dapat melihat beberapa artikel
+#### Landing Page
+
+Pada halaman ini, pengguna dapat melihat beberapa artikel
 
 <table>
   <tr>
