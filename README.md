@@ -360,7 +360,7 @@ Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan
 
 ## L. Cara Menjalankan Aplikasi AgriAsk Pada Localhost
 
-Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
+Repositori ini dibangun dengan Laravel versi 6.02 dan php versi 7 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
 -   masuk ke direktori AgriAsk
 
