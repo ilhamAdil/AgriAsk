@@ -133,9 +133,8 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 <ul>
     <li> User dapat mendaftar terlebih dahulu menggunakan alamat email di website AgriAsk untuk menggunakan fasilitas yang ada. </li>
     <li> User dapat membuat, mengedit, dan menghapus pertanyaa</li>
-    <li> Version control dan collaboration platform : Github </li>
     <li> Satu postingan dapat memiliki banyak komentar/jawaban oleh user lain. </li>
-    <li> Setiap user memiliki poin reputasi tergantung seberapa sering user membantu menjawab pertanyaan-pertanyaan dan poin pada permulaan dimulai dari 0. </li>
+    <li> Setiap user memiliki poin kredibilitas tergantung seberapa sering user membantu menjawab pertanyaan-pertanyaan dan poin pada permulaan dimulai dari 0. </li>
     <li> Jika komentar/jawaban dari user lain sekiranya membantu menjawab pertanyaan dari user yang mengajukan pertanyaan, maka user-user yang terdaftar di website dapat menambahkan skor kepada user yang menjawab dengan menekan tombol commend. Tombol commend akan menambah 10 poin kepada user yang menjawab. Jika jawaban tidak membantu, user lain dapat menekan tombol uncommend yang akan mengakibatkan pengurangan poin sebesar 5 kepada user yang menjawab. </li>
 </ul>
 
@@ -194,6 +193,8 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ### Negative Case
 
+## Kesimpulan
+
 ## Saran untuk Pengembangan Berikutnya
 
 <ol>
@@ -248,5 +249,8 @@ Pastikan server Apache dan MySQL berjalan di XAMPP
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[`Kembali Keatas ^`]
 
 [demo-agriask]: https://ipb.link/agriask
+
+[`Kembali Keatas ^`](#)
