@@ -356,7 +356,7 @@ Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan
 
 [pixabay]
 
-[unsplah]
+[unsplash]
 
 ## L. Cara Menjalankan Aplikasi Pada Localhost
 
