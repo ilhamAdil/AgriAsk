@@ -26,7 +26,7 @@ Asisten Praktikum :
 | Nisma Karmiahtun Fadilah  | G64190036 | UI Designer                          |
 | Fryda Lucyana Permatasari | G64190015 | UX Researcher                        |
 
-![brand](https://user-images.githubusercontent.com/66185022/120875250-76697880-c5dd-11eb-95d1-fb27b167cd58.jpg)
+<img src="https://user-images.githubusercontent.com/66185022/120875574-107df080-c5df-11eb-8cf5-c343c5a9d643.jpg" width="310px" height="auto" />
 
 ## Latar Belakang
 
@@ -65,28 +65,36 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
 
 ### Software
 
-| Database | MySQL |
-| Server | Apache |
+| Komponen    | Teknologi          |
+| ----------- | ------------------ |
+| Database    | MySQL              |
+| Server      | Apache             |
 | Text Editor | Visual Studio Code |
-| UI Design | Figma |
+| UI Design   | Figma              |
 
 ### Hardware
 
-| Prosesor | Acer Intel Core i3-8130U 2.20GHz |
-| Memori | 8 GB DDR4 |
-| Graphic card | NVIDIA GeForce MX150 2GB VRAM |
-| Storage | HDD 1 TB |
+| Komponen     | Teknologi                        |
+| ------------ | -------------------------------- |
+| Prosesor     | Acer Intel Core i3-8130U 2.20GHz |
+| Memori       | 8 GB DDR4                        |
+| Graphic card | NVIDIA GeForce MX150 2GB VRAM    |
+| Storage      | HDD 1 TB                         |
 
 ### Tech Stack
 
+| Komponen  | Teknologi                                          |
+| --------- | -------------------------------------------------- |
 | Front-end | HTML, CSS/SCSS/SASS, Bootstrap, Vanilla Javascript |
-| Back-end | PHP, Laravel, NodeJS |
+| Back-end  | PHP, Laravel, NodeJS                               |
 
 ### Lainnya
 
-| Task Management | Trello |
-| Software documentation | Google Slide |
-| Version control dan collaboration platform | Github |
+| Komponen                                   | Teknologi    |
+| ------------------------------------------ | ------------ |
+| Task Management                            | Trello       |
+| Software documentation                     | Google Slide |
+| Version control dan collaboration platform | Github       |
 
 ## Hasil dan Pembahasan
 
