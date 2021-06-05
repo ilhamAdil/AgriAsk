@@ -14,6 +14,6 @@ class Answer extends Model
     }
 
     public function users(){
-        return $this->belongsToMany('App\User','answer_has_users','answer_id','user_id');
+        return $this->belongsToMany('App\User','answer_has_users','answer_id','user_id')->withPivot('poin');
     }
 }
