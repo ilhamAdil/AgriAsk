@@ -2,7 +2,7 @@
 
 ![ss](https://user-images.githubusercontent.com/66185022/120874266-7fa41680-c5d8-11eb-86a5-56df830ea8b1.png)
 
-> AgriAsk merupakan aplikasi berbasis web yang menyediakan fasilitas forum diskusi tanya jawab antar petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi. Project ini juga bertujuan untuk menggaungkan pertanian secara global dan membangun image bahwa pertanian itu tidak kuno.
+> AgriAsk merupakan aplikasi berbasis web yang menyediakan fasilitas forum diskusi tanya jawab antar petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi.
 
 # Laporan Akhir Projek
 
@@ -26,13 +26,19 @@ Asisten Praktikum :
 | Nisma Karmiahtun Fadilah  | G64190036 | UI Designer                          |
 | Fryda Lucyana Permatasari | G64190015 | UX Researcher                        |
 
-## Deskripsi Singkat Aplikasi
+![brand](https://user-images.githubusercontent.com/66185022/120875250-76697880-c5dd-11eb-95d1-fb27b167cd58.jpg)
 
-AgriAsk adalah sebuah website forum diskusi yang dikhususkan untuk kalangan atau komunitas petani modern. Petani atau user dapat mengajukan pertanyaan yang berkaitan tentang pertanian. Nantinya, user lain yang sekiranya memiliki ilmu yang lebih baik tentang pertanian, dapat menjawab pertanyaan yang diajukan oleh user tersebut. Harapannya dengan website ini, dapat membantu petani/user untuk menjalankan kegiatan pertanian modernnya seperti hidroponik, aquaponik, dan sebagainya.
+## Latar Belakang
+
+Sejak awal pandemi Covid-19, sektor pertanian diklaim menjadi penopang utama perekonomian nasional. Data Badan Pusat Statistik (BPS) menunjukkan, selama kuartal II/2020, pertanian tumbuh sebesar 16,24%. Peneliti dari Center of Food, Energy and Sustainable Development dari Indef, Rusli Abdullah, juga menyatakan bahwa pertumbuhan tersebut masih akan terus terjadi selama pandemi sampai pasca pandemi covid-19. Sebab, penerapan kebijakan karantina wilayah mengakibatkan masyarakat beralih profesi menjadi petani. Dengan demikian, Kami berinisiatif membangun sebuah wadah untuk menfasilitasi para petani yang masih amatir tersebut. Hadirlah AgriAsk, sebuah aplikasi berbasis web yang menyediakan forum diskusi tanya jawab untuk para petani atau masyarakat umum agar dapat saling bertukar pikiran dan informasi. Juga bertujuan untuk menggaungkan sektor pertanian secara luas.
 
 ## Tujuan
 
-Tujuan dari dibuatnya platform agriAsk ini adalah untuk memudahkan para petani mengakses informasi dan berdiskusi, karena dengan ilmu pengetahuan pertanian yang memadai dapat meningkatkan kualitas dan mutu pertanian di Indonesia.
+<ol>
+    <li>Mewadahi para petani atau masyarakat Indonesia untuk saling bertukar pikiran dan informasi di bidang pertanian</li>
+    <li>Menguatkan sektor pertanian selagi masa pandemi</li>
+    <li>Menambah relasi antar petani dalam menlangsungkan kegiatan pertaniannya.</li>
+</ol>
 
 ## User Analisis
 
