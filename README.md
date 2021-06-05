@@ -111,7 +111,8 @@ Pada mata kuliah Rekayasa Perangkat Lunak (KOM 331), 7 minggu pertama Kami berfo
 ![activity_diagram_register](https://user-images.githubusercontent.com/66185022/120842949-0983bd80-c5a0-11eb-9952-319bd0cc14c0.jpg)
 
 > Login
-> ![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120845622-a85de900-c5a3-11eb-8350-d65e4b044525.jpg)
+
+![activity_diagram_login](https://user-images.githubusercontent.com/66185022/120876396-0d84ff00-c5e3-11eb-85fc-131cf2cbbc97.jpg)
 
 > Update password
 
@@ -156,7 +157,13 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## Saran untuk Pengembangan Berikutnya
 
-## Menjalankan Aplikasi Pada Localhost
+<ol>
+  <li>Sebaiknya, gunakan domain (beli) agriask.com</li>
+    <li>Untuk pengembangan berikutnya, dapat mempertimbangkan fitur Progressive Web Apps (PWA), sehingga aplikasi web seolah-olah menjadi native dan dapat di install pada perangkat mobile</li>
+    <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
+</ol>
+
+## Cara Menjalankan Aplikasi Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
