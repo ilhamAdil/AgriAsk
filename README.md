@@ -61,7 +61,7 @@ Target user aplikasi AgriAsk adalah masyarakat umum tanpa batasan usia dan latar
     <li>Sebagai seorang masyarakat umum, saya dapat mencari informasi seputar pertanian agar menambah wawasan saya.</li>
 </ul>
 
-## D Spesifikasi Teknis Lingkungan Pengembangan
+## D. Spesifikasi Teknis Lingkungan Pengembangan
 
 ### D.1 Software
 
