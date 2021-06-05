@@ -21,7 +21,7 @@ Asisten Praktikum :
 
 | Nama                      | NIM       | ROLE                                 |
 | ------------------------- | --------- | ------------------------------------ |
-| Muhammad Ilham Fadillah   | G64190028 | Project Manager & Back-End Developer |
+| Muhamad Ilham Fadillah    | G64190028 | Project Manager & Back-End Developer |
 | I Dewa Putu Semadi        | G64190021 | Front-End Developer                  |
 | Nisma Karmiahtun Fadilah  | G64190036 | UI Designer                          |
 | Fryda Lucyana Permatasari | G64190015 | UX Researcher                        |
