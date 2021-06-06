@@ -426,6 +426,12 @@ $ php artisan key:generate
 npm install
 ```
 
+-   buat database baru di mysql dan jalankan perintah php artisan migrate
+
+```bash
+php artisan migrate
+```
+
 -   Sesuaikan nama database, username dan password nya di file .env dengan database kalian.
 
 ```bash
