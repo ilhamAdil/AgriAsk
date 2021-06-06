@@ -186,8 +186,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
     <li>Menghapus artikel (*)</li>
 </ul>
 
-Keterangan:
-Tanda (\*) berarti fitur belum diimplementasikan.
+**Keterangan:** Tanda (\*) berarti fitur belum diimplementasikan.
 
 ## F. Hasil Implementasi
 
