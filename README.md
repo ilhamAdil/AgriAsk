@@ -154,7 +154,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 <ul>
     <li>Membuat akun pada aplikasi web AgriAsk</li>
     <li>Membuat dan menjawab pertanyaan</li>
-    <li>Membuat dan berkomentar pada artikel</li>
+    <li>Membuat dan berkomentar pada artikel (*)</li>
 </ul>
 
 > Read
@@ -163,18 +163,18 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
     <li>Membaca user input (email dan password) pada akun pengguna saat login</li>
     <li>Menampilkan daftar pertanyaan</li>
     <li>Menampilkan daftar pengguna AgriAsk</li>
-    <li>Pada dashboard user, menampilkan total mengajukan dan menjawab pertanyaan, serta total artikel</li>
+    <li>Pada dashboard user, menampilkan total mengajukan dan menjawab pertanyaan, serta total artikel (*)</li>
 </ul>
 
 > Update
 
 <ul>
     <li>Mengedit pertanyaan</li>
-    <li>Mengubah kata sandi</li>
-    <li>Mengedit artikel </li>
+    <li>Mengubah kata sandi (*)</li>
+    <li>Mengedit artikel (*) </li>
     <li>Menambah poin kredibilitas sebagai reputasi pengguna </li>
-    <li>Mengganti nama dan username</li>
-    <li>Menambahkan foto profil pada pengguna</li>
+    <li>Mengganti nama dan username (*)</li>
+    <li>Menambahkan foto profil pada pengguna (*)</li>
     <li>Menambah atau mengurangi total upvote atau downvote pada pertanyaan</li>
 </ul>
 
@@ -183,8 +183,11 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 <ul>
     <li>Menghapus pertanyaan</li>
     <li>Menghapus komentar pada pertanyaan</li>
-    <li>Menghapus artikel</li>
+    <li>Menghapus artikel (*)</li>
 </ul>
+
+Keterangan:
+Tanda (\*) berarti fitur belum diimplementasikan.
 
 ## F. Hasil Implementasi
 
@@ -385,7 +388,6 @@ Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan
 [trello]
 
 [google_sites]
-
 
 ## M. Cara Menjalankan Aplikasi AgriAsk Pada Localhost
 
