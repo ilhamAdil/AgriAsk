@@ -328,7 +328,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 
 ### F.3 Link Aplikasi
 
-Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
+Demo frontend aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## G. Testing (Test Cases)
 
