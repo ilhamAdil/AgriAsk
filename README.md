@@ -360,7 +360,8 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 
 ## H. Kesimpulan
 
-Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel dan berkomentar pada artikel belum berhasil diimplementasikan.
+Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, memberi komentar pada peranyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artike belum berhasil diimplementasikan
+
 
 ## I. Saran untuk Pengembangan Berikutnya
 
