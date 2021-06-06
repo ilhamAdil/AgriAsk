@@ -322,9 +322,29 @@ Demo aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
 ## G. Testing (Test Cases)
 
+Kami melakukan pengujian secara manual (manual testing) tanpa menggunakan bantuan tools atau scripts, tujuannya adalah untuk memastikan aplikasi bebas dari bugs/error dan memastikan dapat bekerja sesuai dengan yang diharapkan.
+
 ### G.1 Positive Case
 
+Pengujian Positif merupakan jenis pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang valid sebagai input.
+
+| No  | Test Case Name | Pre-requisites             | Steps                                                           | Expected Results                          | Actual Result | Status |
+| --- | -------------- | -------------------------- | --------------------------------------------------------------- | ----------------------------------------- | ------------- | ------ |
+| 1   | User login     | user mengakses web AgriAsk | Pergi ke halaman login, masukkan email dan password, klik login | Login berhasil dan user diarahkan ke home | as expected   | Pass   |
+| 2   |                |                            |                                                                 |                                           |               |        |
+| 3   |                |                            |                                                                 |                                           |               |        |
+| 4   |                |                            |                                                                 |                                           |               |        |
+
 ### G.2 Negative Case
+
+Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang tidak valid atau tidak tepat sebagai input.
+
+| No  | Test Case Name | Pre-requisites | Steps | Expected Results | Actual Result | Status |
+| --- | -------------- | -------------- | ----- | ---------------- | ------------- | ------ |
+| 1   |                |                |       |                  |               |        |
+| 2   |                |                |       |                  |               |        |
+| 3   |                |                |       |                  |               |        |
+| 4   |                |                |       |                  |               |        |
 
 ## H. Kesimpulan
 
