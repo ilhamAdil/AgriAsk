@@ -334,6 +334,7 @@ Pengujian Positif merupakan jenis pengujian yang dilakukan pada aplikasi perangk
 | 2   | User mendaftar username, alamat email, dan password yang valid                                         | User mengakses web AgriAsk | Pergi ke halaman daftar, masukkan nama, username, alamat email, password, dan konfirmasi password, lalu klik daftar | Daftar berhasil                                     | As expected     | Pass ✔  |
 | 3   | Reset password dengan alamat email yang valid                                                          | User mengakses web AgriAsk | Pergi ke halaman lupa password, masukkan alamat email, klik submit                                                  | Berhasil mengirim link reset password ke email user | Not as expected | Fail ❌ |
 | 4   | Buat pertanyaan dengan mamasukkan judul, deskripsi, tag, dan gambar (opsional) dengan input yang valid | User mengakses web AgriAsk | Pergi ke halaman komunitas, klik button buat pertanyaan, masukkan input yang diminta, klik submit                   | Berhasil membuat pertanyaan                         | As expected     | Pass ✔  |
+| 5   | Menjawab pertanyaan dengan mamasukkan input yang valid                                                 | User mengakses web AgriAsk | Pergi ke halaman komunitas, klik pertanyaan yang ingin dijawab, masukkan input yang diminta, klik submit            | Berhasil publish jawaban                            | As expected     | Pass ✔  |
 
 ### G.2 Negative Case
 
@@ -345,6 +346,7 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 | 2   | User mendaftar username, alamat email, dan password yang tidak valid                                         | User mengakses web AgriAsk | Pergi ke halaman daftar, masukkan nama, username, alamat email, password, dan konfirmasi password, lalu klik daftar | Daftar gagal, tampilkan pesan error | As expected   | Pass ✔ |
 | 3   | Reset password dengan alamat email yang tidak valid                                                          | User mengakses web AgriAsk | Pergi ke halaman lupa password, masukkan alamat email, klik submit                                                  | Tampilkan pesan error               | As expected   | Pass ✔ |
 | 4   | Buat pertanyaan dengan mamasukkan judul, deskripsi, tag, dan gambar (opsional) dengan input yang tidak valid | User mengakses web AgriAsk | Pergi ke halaman komunitas, klik button buat pertanyaan, masukkan input yang diminta, klik submit                   | Tampilkan pesan error               | As expected   | Pass ✔ |
+| 5   | Menjawab pertanyaan dengan mamasukkan input yang tidak valid                                                 | User mengakses web AgriAsk | Pergi ke halaman komunitas, klik pertanyaan yang ingin dijawab, masukkan input yang diminta, klik submit            | Tampilkan pesan error               | As expected   | Pass ✔ |
 
 ## H. Kesimpulan
 
