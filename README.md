@@ -328,23 +328,23 @@ Kami melakukan pengujian secara manual (manual testing) tanpa menggunakan bantua
 
 Pengujian Positif merupakan jenis pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang valid sebagai input.
 
-| No  | Test Case Name | Pre-requisites             | Steps                                                           | Expected Results                          | Actual Result | Status |
-| --- | -------------- | -------------------------- | --------------------------------------------------------------- | ----------------------------------------- | ------------- | ------ |
-| 1   | User login     | user mengakses web AgriAsk | Pergi ke halaman login, masukkan email dan password, klik login | Login berhasil dan user diarahkan ke home | as expected   | Pass   |
-| 2   |                |                            |                                                                 |                                           |               |        |
-| 3   |                |                            |                                                                 |                                           |               |        |
-| 4   |                |                            |                                                                 |                                           |               |        |
+| No  | Test Case Name                    | Pre-requisites             | Steps                                                           | Expected Results                          | Actual Result | Status |
+| --- | --------------------------------- | -------------------------- | --------------------------------------------------------------- | ----------------------------------------- | ------------- | ------ |
+| 1   | User login dengan akun yang valid | user mengakses web AgriAsk | Pergi ke halaman login, masukkan email dan password, klik login | Login berhasil dan user diarahkan ke home | as expected   | Pass   |
+| 2   |                                   |                            |                                                                 |                                           |               |        |
+| 3   |                                   |                            |                                                                 |                                           |               |        |
+| 4   |                                   |                            |                                                                 |                                           |               |        |
 
 ### G.2 Negative Case
 
 Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang tidak valid atau tidak tepat sebagai input.
 
-| No  | Test Case Name | Pre-requisites | Steps | Expected Results | Actual Result | Status |
-| --- | -------------- | -------------- | ----- | ---------------- | ------------- | ------ |
-| 1   |                |                |       |                  |               |        |
-| 2   |                |                |       |                  |               |        |
-| 3   |                |                |       |                  |               |        |
-| 4   |                |                |       |                  |               |        |
+| No  | Test Case Name                          | Pre-requisites             | Steps                                                           | Expected Results      | Actual Result | Status |
+| --- | --------------------------------------- | -------------------------- | --------------------------------------------------------------- | --------------------- | ------------- | ------ |
+| 1   | User login dengan akun yang tidak valid | user mengakses web AgriAsk | Pergi ke halaman login, masukkan email dan password, klik login | Munculkan pesan error | as expected   | pass   |
+| 2   |                                         |                            |                                                                 |                       |               |        |
+| 3   |                                         |                            |                                                                 |                       |               |        |
+| 4   |                                         |                            |                                                                 |                       |               |        |
 
 ## H. Kesimpulan
 
