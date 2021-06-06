@@ -149,7 +149,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 
 ### E.7 Fungsi CRUD
 
-> Create
+> CREATE
 
 <ul>
     <li>Membuat akun pada aplikasi web AgriAsk</li>
@@ -157,7 +157,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
     <li>Membuat dan berkomentar pada artikel (*)</li>
 </ul>
 
-> Read
+> READ
 
 <ul>
     <li>Membaca user input (email dan password) pada akun pengguna saat login</li>
@@ -166,7 +166,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
     <li>Pada dashboard user, menampilkan total mengajukan dan menjawab pertanyaan, serta total artikel (*)</li>
 </ul>
 
-> Update
+> UPDATE
 
 <ul>
     <li>Mengedit pertanyaan</li>
@@ -178,7 +178,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
     <li>Menambah atau mengurangi total upvote atau downvote pada pertanyaan</li>
 </ul>
 
-> Delete
+> DELETE
 
 <ul>
     <li>Menghapus pertanyaan</li>
