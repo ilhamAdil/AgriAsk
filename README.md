@@ -277,7 +277,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 ![ss](https://user-images.githubusercontent.com/66185022/120874266-7fa41680-c5d8-11eb-86a5-56df830ea8b1.png)
 ![image](https://user-images.githubusercontent.com/66185022/120890594-692ca800-c636-11eb-96ab-5e74e0968c1c.png)
 
-### 2. Komunitas
+#### 2. Komunitas
 
 ![image](https://user-images.githubusercontent.com/66185022/120890634-aee97080-c636-11eb-88c5-60eb7616498c.png)
 ![image](https://user-images.githubusercontent.com/66185022/120890647-c32d6d80-c636-11eb-8446-181ca45312ef.png)
@@ -380,7 +380,14 @@ Beberapa ilustrasi dan gambar berasal dari internet, berikut akan kami lampirkan
 
 [unsplash]
 
-## L. Cara Menjalankan Aplikasi AgriAsk Pada Localhost
+## L. Project Documentation
+
+[trello]
+
+[google_sites]
+
+
+## M. Cara Menjalankan Aplikasi AgriAsk Pada Localhost
 
 Repositori ini dibangun dengan Laravel versi 6.02 dan php versi 7 ke atas. Lakukanlah langkah-langkah di bawah ini untuk menjalankan project.
 
@@ -439,3 +446,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 [storyset]: https://storyset.com/
 [pixabay]: https://pixabay.com/
 [unsplash]: https://unsplash.com/
+[trello]: https://ipb.link/agriask-trello
+[google_sites]: https://ipb.link/agriask-sites
