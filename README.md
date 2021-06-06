@@ -134,7 +134,7 @@ Pada mata kuliah ini, 7 minggu pertama Kami berfokus pada analisis sistem. Mulai
 
 ### E.5 Software Architecture
 
-Tim Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai pengembangan aplikasi web yang rapi secara kode, memiliki skalabilitas, dan kemampuan dalam memperbaiki kode secara cepat dengan usaha yang sedikit.
+Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai pengembangan aplikasi web yang rapi secara kode, memiliki skalabilitas, dan kemampuan dalam memperbaiki kode secara cepat dengan usaha yang sedikit.
 ![Arsitektur_agriask](https://user-images.githubusercontent.com/66185022/120827674-4646b900-c58e-11eb-9487-049abc02a41a.png)
 
 ### E.6 Fungsi Utama yang Dikembangkan
@@ -333,7 +333,7 @@ Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil memb
 ## I. Saran untuk Pengembangan Berikutnya
 
 <ol>
-  <li>Sebaiknya, gunakan domain (beli) agriask.com saat sudah di tahap production.</li>
+    <li>Sebaiknya, gunakan domain (beli) agriask.com saat sudah di tahap production.</li>
     <li>Untuk pengembangan berikutnya, dapat mempertimbangkan fitur Progressive Web Apps (PWA), sehingga aplikasi web seolah-olah menjadi native dan dapat di install pada perangkat mobile.</li>
     <li>Kedepannya, AgriAsk diharapkan tidak hanya menjadi forum diskusi, tetapi wadah bertemunya investor dengan para petani. Sehingga, AgriAsk akan memiliki value di masyarakat.</li>
 </ol>
