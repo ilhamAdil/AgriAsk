@@ -71,19 +71,22 @@
                         <div class="auth dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->username }} <span class="caret"></span>
-                                </a>
+                                s</a>
 
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        Keluar
-                                    </a>
-                                    <a>
-                                        Masuk
-                                    </a>
-
+                                <a class="dropdown-item border-bottom" href="/user/{{ $user->id ?? '' }}/overview">
+                                   
+                                   <i class="bi bi-person me-2 my-auto">
+                                       </i>
+                                       Profile
+                                   </a>
+                                   
+                                   <a class="dropdown-item" href="{{ route('logout') }}"
+                                      onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">
+                                       <i class="bi bi-box-arrow-right me-2 my-auto"></i>  
+                                       Keluar
+                                   </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
@@ -104,13 +107,13 @@
                     <div class="left-panel">
                         <ul class="list-unstyled border-top border-bottom">
                             <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Pertanyaan</a>
+                                <a href="/community" class="text-decoration-none text-dark">Pertanyaan</a>
                             </li>
                             <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Tags</a>
+                                <a href="/tag" class="text-decoration-none text-dark">Tags</a>
                             </li>
                             <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Users</a>
+                                <a href="/users" class="text-decoration-none text-dark">Users</a>
                             </li>
                         </ul>
                     </div>
@@ -176,9 +179,7 @@
 
                 <!-- center panel-->
                 <div class="col-lg-7 center-container">
-                    <div class="d-flex justify-content-between">
-                        @yield('button')
-                    </div>
+                    @yield('button')
 
 
                     @yield('precontent')               
@@ -248,14 +249,4 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>    
-        <script>
-        const target = document.querySelector("#typewriter");
-        if (target) {
-            new Typewriter(target, {
-                strings: ["Tanya Jawab", "dan", "Dapatkan Poin Kredibilitas"],
-                autoStart: true,
-                loop: true,
-            });
-        }
-        </script>                
 </html>

@@ -13,7 +13,7 @@
     color: white;
 }
 
-@media(max-width:768px) {
+@media(max-width:992px) {
     .copyright-footer {
         flex-direction: column-reverse;
         align-items: center;

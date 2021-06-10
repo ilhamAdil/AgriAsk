@@ -1,0 +1,71 @@
+svg#freepik_stories-404-error-page-not-found-with-people-connecting-a-plug:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-404-error-page-not-found-with-people-connecting-a-plug.animated #freepik--character-2--inject-12 {
+    animation: 1.5s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-404-error-page-not-found-with-people-connecting-a-plug.animated #freepik--character-1--inject-12 {
+    animation: 3s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-404-error-page-not-found-with-people-connecting-a-plug.animated #freepik--error-404--inject-12 {
+    animation: 3s Infinite linear shake;
+    animation-delay: 0s;
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+
+@media(min-width:768px) {
+    .not-found-illustration {
+        padding: 0 100px;
+    }
+}
+
+@media(min-width:992px) {
+    .not-found-illustration {
+        padding: 0 200px;
+    }
+}

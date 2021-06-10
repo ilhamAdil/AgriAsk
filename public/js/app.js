@@ -1,5 +1,3 @@
-require('typewriter-effect/dist/core.js');
-
 
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache

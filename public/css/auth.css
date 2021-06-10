@@ -18,12 +18,11 @@
 .sign-in-bg-illus {
     /* background-color: #3bb78f;
     background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); */
-    background-image: url("../assets/images/farmer.webp");
+    background-image: url("../assets/images/farmer.jpg");
     min-height: auto;
     background-repeat: unset;
     background-position: center;
     background-size: cover;
-    
 }
 
 .reset-pass,
@@ -40,5 +39,19 @@
     .sign-in-tittle,
     .sign-in-desc {
         text-align: center;
+    }
+}
+
+@media(min-width:992px) {
+    .height-sign-up-form {
+        height: unset !important;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
+@media(min-width:1200px) {
+    .height-sign-up-form {
+        height: 100% !important;
     }
 }

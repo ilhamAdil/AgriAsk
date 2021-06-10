@@ -1,0 +1,46 @@
+.bi-share-fill::before {
+    height: 17.7px;
+}
+
+.time-published-question {
+    margin-top: 7px !important;
+}
+
+.text-area-inp-answ {
+    min-height: 100px !important;
+}
+
+.upvote,
+.downvote {
+    cursor: pointer !important;
+}
+
+.answered-box {
+    background-color: #f6f8fa;
+}
+
+.bi-trash::before {
+    height: 17.5px;
+}
+
+@media(max-width:576px) {
+
+    /* disable tooltip hover on mobile version */
+    .tooltip {
+        display: none !important;
+    }
+}
+
+@media(max-width:768px) {
+
+    .time-answered,
+    .answered-container {
+        margin-left: 0 !important;
+    }
+}
+
+@media(min-width:768px) {
+    .detail-question-box {
+        padding: 1.5rem;
+    }
+}

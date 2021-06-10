@@ -7,7 +7,12 @@
 @import url("./faq.css");
 @import url("./community.css");
 @import url("./utility.css");
-@import url("./edit.css");
+@import url("./settings.css");
+@import url("./article-illustration.css");
+@import url("./question-illustration.css");
+@import url("./faq-illustration.css");
+@import url("./not-found.css");
+@import url("./question-detail.css");
 @import url("/assets/font/inter-400.css");
 
 /* node modules */
@@ -21,6 +26,7 @@
     --soft_gray_: #fafafa;
     --medium_gray_: #C5C5C5;
     --red_: #E94235;
+    --yellow_: #FBBD01;
 }
 
 * {
@@ -33,6 +39,7 @@ html,
 body {
     overflow-x: hidden;
     height: 100% !important;
+    width: 100% !important;
     background-color: var(--soft_gray_);
 }
 
@@ -51,6 +58,11 @@ body {
     box-shadow: none;
 }
 
+#nprogress {
+    position: relative;
+    z-index: 9999999;
+}
+
 #nprogress .bar {
     background: var(--green_);
 }
@@ -58,4 +70,12 @@ body {
 #nprogress .spinner-icon {
     border-top-color: var(--green_);
     border-left-color: var(--green_);
+}
+
+@media(min-width:768px) {
+    #nprogress .spinner {
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
 }

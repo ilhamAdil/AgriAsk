@@ -21,12 +21,16 @@ class CommunityController extends Controller
     public function index(){
         $questions = Question::orderBy('id','DESC')->get();
 
+        $user = User::where('id',Auth::id())->first();
+
         $poin = DB::table('questions')->select([
             DB::raw('sum(poin) as poin')
-        ])->groupBy('user_id')->orderBy('poin','DESC')->get();
+        ])->groupBy('user_id')->orderBy('user_id','DESC')->get();
+
+        $users = User::orderBy('id','DESC')->get();
 
         // dd($questions);
-        return view('content.question.index', compact('poin','questions'));
+        return view('content.question.index', compact('user','users','poin','questions'));
     }
 
     public function store(Request $request){

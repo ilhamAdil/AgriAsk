@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\User;
 use App\Question;
 use App\Answer;
@@ -13,11 +12,11 @@ use App\Tag_has_question;
 use DB;
 use Auth;
 
-class FaqController extends Controller
+
+class BlogController extends Controller
 {
     public function index(){
         $user = User::where('id',Auth::id())->first();
-
-        return view('content.faq',compact('user'));
+        return view('content.blog',compact('user'));
     }
 }

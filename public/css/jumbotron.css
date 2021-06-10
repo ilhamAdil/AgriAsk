@@ -10,7 +10,7 @@
 
 .jumbotron {
     min-height: auto;
-    background-image: url("../assets/images/bg-banner.webp");
+    background-image: url("/assets/images/bg-banner.webp");
     background-repeat: unset;
     background-position: center;
     background-size: cover;

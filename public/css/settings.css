@@ -1,0 +1,31 @@
+.left-bar-community,
+.nav-setting-profile {
+    padding: 15px .3rem 15px 1rem !important;
+}
+
+.left-bar-community:hover,
+.nav-setting-profile:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.left-bar-community-act,
+.nav-set-act {
+    background-color: #f1f1f1;
+    border-left: 3px solid var(--green_);
+}
+
+@media(max-width:768px) {
+    .padding-acc-mobile {
+        padding: 1rem !important;
+    }
+
+    .margin-when-mobile {
+        margin-top: 25px !important;
+    }
+}
+
+@media(min-width:768px) {
+    .responsive-form-width {
+        width: 50% !important;
+    }
+}

@@ -1,11 +1,13 @@
 @extends('content.community')
 
 @section('button')
+<div class="d-flex justify-content-between">
 <h4 class="">Pertanyaan</h1>
 <a href="" class="btn btn-success fs-6 create-question" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
     <i class="bi bi-plus d-inline-block g-0" style="font-size:1.1rem;"></i>Buat pertanyaan
 </a>
+</div>
 @endsection
 
 @section('precontent')
@@ -15,13 +17,9 @@
                         <a href="" class="text-decoration-none text-dark text-end">Baru</a>
                         <a href="" class="text-decoration-none text-dark text-end ms-3">Belum dijawab</a>
                     </div>
-                    <div class="border-bottom mt-2"></div>
+         <div class="border-bottom mt-2"></div>
                     <!-- search button -->
-                    <form class="input-group mb-3 w-50 mt-3" method="get" action="/community/search">    
-                        <input type="text" name="query" class="form-control" placeholder="cari pertanyaan..."
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-success" type="submit" id="button-addon2">Cari</button>
-                    </form>
+                   
 @endsection
 
 @section('content')    
@@ -36,7 +34,7 @@
                 @if($question->user->username === Auth::user()->username)
                 <div class="dropdown">
                             <i class="bi bi-three-dots dots-icon" class="dropdown-toggle" type="button"
-                                id="dropdownMenuButton${i}" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu dots-menu" aria-labelledby="dropdownMenuButton">
                                 <li><a href="/community/{{ $question->id }}/edit" class="dropdown-item"><i class="bi bi-pencil-square me-2"></i>edit</a></li>
                                 <li>
@@ -83,29 +81,36 @@
 @section('content2')
 <div class="col-lg-3 right-container">
                     <div class="div border rounded bg-white p-3 right-panel">
-                        <p class="">User Terbaru</p>
+                        <p class="text-warning">User Terbaru</p>    
                         <!-- user list -->
-
+                    <div class="d-flex">
+                    <div>
+                    <?php $count=0; ?>     
+                    @foreach($users as $user)                                                
+                        <?php if($count==7) break; ?>  
+                            <p>{{ $user->username }}</p>                      
+                        <?php $count++; ?>                  
+                    @endforeach   
+                    </div>
+                    
+                    <div class="">
                     <?php $count=0; ?>     
                     @foreach($poin as $key => $values)                       
                         @foreach($values as $value)                          
-                        <?php if($count==7) break; ?>                     
-                        <div class="d-flex my-3">
-                            <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg" alt="Arif Satria" width="30px" height="30px" class="my-auto">
-                            <div>
-                            <a href="" class="text-decoration-none text-dark">
-                            <p class="ms-2 my-auto"></p>
-                            </a>
-                         
-                            <p class="ms-2 my-auto">
+                        <?php if($count==7) break; ?>                  
+                  
+                            
+                            <div>                       
+                            <p class="ms-2">
                             <i class="bi bi-star-fill" style="color: orange;"></i>
-                            <small class="text-muted">{{ $value }}</small>
+                            <small class="text-muted">{{ $value }} poin</small>
                             </p>
-                            </div>
-                        </div>
+                            </div>                        
                         <?php $count++; ?>
                         @endforeach                       
                     @endforeach
+                    </div>
+                    </div>
                     </div>
                 </div>
 @endsection               

@@ -76,15 +76,20 @@
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->username }} <span class="caret"></span>
                                 </a>
-
+                                
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/community">
+                                  
+                                    <a class="dropdown-item border-bottom" href="/user/{{ $user->id ?? '' }}/overview">
+                                   
+                                    <i class="bi bi-person me-2 my-auto">
+                                        </i>
                                         Profile
                                     </a>
                                     
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
+                                        <i class="bi bi-box-arrow-right me-2 my-auto"></i>  
                                         Keluar
                                     </a>
 

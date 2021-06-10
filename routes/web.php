@@ -11,16 +11,12 @@
 |
 */
 Route::get('/', function () {
-    return view('content.home');
+    return redirect('/home');
 });
 
-// Route::get('/home',function(){
-//     return view('content.home');
-// });
+Route::get('/home','HomeController@index');
 
-Route::get('/blog', function () {
-    return view('content.blog');
-});
+Route::get('/blog','BlogController@index');
 
 Route::get('/signin', function(){
     return view('auth.login');
@@ -38,7 +34,16 @@ Route::post('/community/{id}/detail/{user_id}/upvote','CommunityController@upvot
 Route::post('/community/{id}/detail/{user_id}/downvote','CommunityController@downvote');
 
 Route::get('/faq','FaqController@index');
+Route::get('/tag','TagController@index');
+Route::get('/users','UsersController@index');
+
+Route::get('/user/{id}/overview','UserController@index');
+Route::get('/user/{id}/listquestion','UserController@indexQuestion')->name('listQ');;
+
+Route::delete('/user/{id}/listquestion/{quest_id}','UserController@destroy');
+Route::get('/user/{id}/listarticle','UserController@indexArticle');
+
 
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+
 

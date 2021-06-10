@@ -52,18 +52,6 @@
         </div>
 @endsection
 
-@push('script')
-<script>
-        const target = document.querySelector("#typewriter");
-        if (target) {
-            new Typewriter(target, {
-                strings: ["Tanya Jawab", "dan", "Dapatkan Poin Kredibilitas"],
-                autoStart: true,
-                loop: true,
-            });
-        }
-</script>    
-@endpush
 
 
 
