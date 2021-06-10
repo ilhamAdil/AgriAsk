@@ -716,8 +716,9 @@
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body text-secondary">
-        Kalian hanya perlu pergi ke tab komunitas, lalu klik tombol +Buat pertanyaan. Lalu, kalian tinggal memasukkan judul pertanyaan, isi pertanyaan, dan tags.
-        Sangatlah mudah bukan?
+        Kalian hanya perlu membuat akun terlebih dahulu lalu pergi ke tab komunitas, setelah itu klik tombol +Buat pertanyaan. Lalu, kalian tinggal memasukkan judul pertanyaan, isi pertanyaan, dan tags.
+        Pertanyaan yang kalian ajukan akan terlihat secara publik dan user lain dapat membantu untuk menjawab, sangat mudah bukan?
+        
       </div>
     </div>
   </div>

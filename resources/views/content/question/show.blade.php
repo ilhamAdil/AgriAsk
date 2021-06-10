@@ -8,7 +8,7 @@
     <meta name="description" content="modern agriculture community">
     <meta name="author" content="dewasemadi@apps.ipb.ac.id">
     <meta name="theme-color" content="#198754" />
-    <title>Community</title>
+    <title>AgriAsk - Community</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -81,9 +81,15 @@
                                 </a>
 
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <i class="bi bi-person me-2 my-auto">
+                                        </i>
+                                        Profile
+                                    </a>
+                                    
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
+                                        <i class="bi bi-box-arrow-right me-2 my-auto"></i>  
                                         Keluar
                                     </a>
 
@@ -143,7 +149,7 @@
                                             @foreach($poin as $key => $values)
                                                 @foreach($values as $value)
                                                 <span class="text-muted align-text-top">  
-                                                    {{ $value }} poin
+                                                    {{ $value ?? 0 }} poin
                                                 </span>
                                                 @endforeach    
                                             @endforeach                                                                                

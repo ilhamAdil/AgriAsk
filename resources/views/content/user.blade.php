@@ -37,7 +37,9 @@
                                 </p>
                                 <p>Bergabung sejak {{ ' '.$user->created_at->format('Y-m-d')}}</p>
 
-                                <a href="/settings/profile.html" class="btn btn-outline-success">Edit profil</a>
+                                 @if($user->id === Auth::id())    
+                                <a href="/setting/{{  Auth::id() }}" class="btn btn-outline-success">Edit profil</a>
+                                @endif
                             </div>
                         </div>
 

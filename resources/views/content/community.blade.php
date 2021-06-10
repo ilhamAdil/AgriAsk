@@ -10,6 +10,10 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
     <title>AgriAsk - Community</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -74,7 +78,7 @@
                                 s</a>
 
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item border-bottom" href="/user/{{ $user->id ?? '' }}/overview">
+                                <a class="dropdown-item border-bottom" href="/user/{{ Auth::id()}}/overview">
                                    
                                    <i class="bi bi-person me-2 my-auto">
                                        </i>
@@ -131,7 +135,7 @@
                                 <!-- direct ke faq cara bikin pertanyaan -->
                                 <div class="alert alert-warning p-2 mb-0" role="alert">
                                     <small>
-                                        <p class="mb-0">Lihat <a href="./faq.html"
+                                        <p class="mb-0">Lihat <a href="/faq"
                                                 class="text-decoration-none text-success"><b>disini</b></a>
                                             agar pertanyaan-Mu lebih
                                             cepat dijawab.</p>

@@ -31,13 +31,13 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body p-4">
-                            <a href="#" class="text-decoration-none text-dark">
-                                <h6 class="card-title fw-bold box-tittle">Langkah Awal Menanam Hidroponik</h6>
+                            <a href="/blog" class="text-decoration-none text-dark">
+                                <h6 class="card-title fw-bold box-tittle">Perjalanan AgriAsk</h6>
                             </a>
 
-                            <p class="card-text"><small class="text-muted">Semadi - 24 April 2021</small></p>
-                            <p class="card-text desc">Cara bercocok tanam hidroponik adalah metode penanaman tanaman tanpa menggunakan media tumbuh dari tanah. Secara harfiah, hidroponik berarti penanam dalam air yang mengandung campuran hara. Budidaya tanaman sayuran dengan sistem hidroponik, Balai Penelitian Tanaman Sayuran (Balitsa).</p>
-                            <p class="card-text"><small class="text-muted">#hidroponik</small></p>
+                            <p class="card-text"><small class="text-muted">AgriAsk Dev - 24 April 2021</small></p>
+                            <p class="card-text desc">Dengan rentang waktu pengembangan aplikasi yang terbatas, tim Kami berhasil membangun sistem yang diharapkan walaupun masih jauh dari kata sempurna. Fitur-fitur mayor seperti autentikasi, membuat dan menjawab pertanyaan, memberi komentar pada peranyaan, serta menambah poin kredibilitas berhasil diimplementasikan dengan baik. Namun, fitur-fitur minor seperti membuat artikel belum berhasil diimplementasikan.</p>
+                            <p class="card-text"><small class="text-muted">#kuatkanSektorPertanian</small></p>
                         </div>
                     </div>
                 </div>

@@ -43,6 +43,9 @@ Route::get('/user/{id}/listquestion','UserController@indexQuestion')->name('list
 Route::delete('/user/{id}/listquestion/{quest_id}','UserController@destroy');
 Route::get('/user/{id}/listarticle','UserController@indexArticle');
 
+Route::get('/setting/{id}','SettingController@show');
+Route::put('/setting/{id}','SettingController@update');
+
 
 Auth::routes();
 

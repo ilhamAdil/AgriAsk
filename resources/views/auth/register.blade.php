@@ -78,13 +78,17 @@
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
-                                <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <i class="bi bi-person me-2 my-auto">
+                                        </i>
+                                        Profile
+                                    </a>
+                                    
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
+                                        <i class="bi bi-box-arrow-right me-2 my-auto"></i>  
                                         Keluar
                                     </a>
-
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>

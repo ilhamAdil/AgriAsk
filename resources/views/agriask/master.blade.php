@@ -79,7 +79,7 @@
                                 
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                   
-                                    <a class="dropdown-item border-bottom" href="/user/{{ $user->id ?? '' }}/overview">
+                                    <a class="dropdown-item border-bottom" href="/user/{{ Auth::id()}}/overview">
                                    
                                     <i class="bi bi-person me-2 my-auto">
                                         </i>
