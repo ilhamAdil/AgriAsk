@@ -13,7 +13,7 @@ class Answer extends Model
         return $this->belongsTo('App\Question','question_id');   
     }
 
-    public function users(){
-        return $this->belongsToMany('App\User','answer_has_users','answer_id','user_id')->withPivot('poin');
+    public function user(){
+        return $this->belongsTo('App\User','user_id');
     }
 }

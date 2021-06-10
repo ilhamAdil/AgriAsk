@@ -127,45 +127,76 @@
                         <div class="card-body">
                             <!-- user yang mengajukan pertanyaan -->
                             <div>
-                                <div class="d-flex mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                <div class="d-flex">
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle">
                                     <div class="my-auto ms-2">
-                                        <a href="/profile/overview.html" class="text-decoration-none text-dark">
-                                            <p class="ms-2 my-auto">{{ $question->user->username }}</p>
+                                        <a href=# class="text-decoration-none text-dark">
+                                            <p class="ms-2 my-auto">
+                                            {{ $question->user->username }}
+                                            </p>
                                         </a>
                                         <p class="ms-2 my-auto">
                                             <i class="bi bi-star-fill" style="color: orange;"></i>
-                                            <small>
-                                                <span class="text-muted align-text-top">40 poin</span>
+                                            <small>                                                         
+                                            @foreach($poin as $key => $values)
+                                                @foreach($values as $value)
+                                                <span class="text-muted align-text-top">  
+                                                    {{ $value }} poin
+                                                </span>
+                                                @endforeach    
+                                            @endforeach                                                                                
                                             </small>
                                         </p>
                                     </div>
                                 </div>
 
+                                <div>
+                                    <p>Poin yang didapatkan</p>
+                                    <h2>
+                                    {{ $question->poin }}   
+                                    </h2>
+                                </div>    
+                                </div>
+                              
+
 
                                 <!-- detail pertanyaan -->
-                                <small><span class="text-muted fst-italic">{{ $question->created_at->diffForHumans() }}</span></small>
+                                <small><span class="text-muted fst-italic">{{ $question->created_at }}</span></small>
                                 <h5 class="fw-bold question-tittle mt-2">{{ $question->title }}</h5>
 
                                 <p>{{ $question->body }}</p>
                                 <div class="d-flex justify-content-between">
                                     <p class="card-text my-auto"><small class="text-muted">
                                     <?php 
-                                    $i=0;
-                                    foreach($question->tags as $tag){
-                                        if($i<4){
-                                            echo "#".$tag->tag_name."&nbsp; &nbsp;";
+                                        $i=0;
+                                        foreach($question->tags as $tag){
+                                            if($i<2){ ?>
+                                                <button type="button" class="btn btn-success btn-sm mt-1">{{ $tag->tag_name }}</button>
+                                        <?php }
+                                            else { ?>
+                                                <button type="button" class="btn btn-success btn-sm mt-1">{{ $tag->tag_name }}</button><br>
+                                        <?php
+                                                $i=0;   
+                                            }
+                                            $i++;
                                         }
-                                        else{
-                                            echo "#".$tag->tag_name."<br>";
-                                            $i=0;   
-                                        }
-                                        $i++;
-                                    }
-                                    ?></small></p>
+                                        ?></small></p>
+                                    <span>
+                                    <div class="d-flex">
+                                    <form action="/community/{{ $question->id }}/detail/{{ $question->user_id }}/upvote" method="post">
+                                    @csrf
                                     <button class="btn btn-outline-success"><i
-                                            class="bi bi-share-fill me-2"></i>Bagikan</button>
+                                            class="bi bi-caret-up-fill upvote"></i>&nbsp;upvote</button>
+                                    </form>
+                                    <form action="/community/{{ $question->id }}/detail/{{ $question->user_id }}/downvote" method="post">
+                                    @csrf
+                                    <button class="btn btn-outline-danger"><i
+                                            class="bi bi-caret-down-fill downvote"></i>&nbsp;downvote</button>        
+                                    </form>
+                                    </div>        
+                                    </span>        
                                 </div>
                                 <!-- tutup detail pertanyaan -->
                             </div>
@@ -185,16 +216,21 @@
                                         </a>
                                         <p class="ms-2 my-auto">
                                             <i class="bi bi-star-fill" style="color: orange;"></i>
-                                            <small><span class="text-muted align-text-top">20 poin</span></small>
+                                            <small><span class="text-muted align-text-top">
+                                            @foreach($poinsaya as $key => $values)
+                                                @foreach($values as $value)
+                                                    {{ $value }} poin
+                                                @endforeach    
+                                            @endforeach
+                                            </span></small>
                                         </p>
                                     </div>
                                 </div>
-
-                                <form action="/community/{{ $question->id }}" method="post">
+                                <form action="/community/{{ $question->id }}/detail/{{ $question->user_id }}" method="post">
                                 @csrf
                                     <div class="mb-0">
                                         <textarea class="form-control text-area-inp-answ" class="message-text text-wrap" name="comment"
-                                            placeholder="Tuliskan jawaban Kamu disini"></textarea>
+                                            placeholder="Tuliskan jawaban Kamu disini" required></textarea>
                                     </div>
                                     <button class="btn btn-success mt-4 ms-auto d-block">Kirim Jawaban</button>
                                 </form>
@@ -210,47 +246,20 @@
                             <!-- jawaban user lain -->
                             @foreach($answers as $answer)
                             <div>
-                                <div class="d-flex">
-                                    <!-- upvote dan downvote -->
-                                    <form action="/community/{{ $answer->id }}" method="post">
-                                    <div class="d-flex flex-column my-auto">
-                                    <button type="submit" name="upvote" style="background:none; padding=0; border=none;">
-                                        <i class="bi bi-caret-up-fill upvote" style="font-size:1.5rem;"
-                                            data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Upvote. Jawaban ini membantu"></i>
-                                    </button>
-                                        <p class="fs-4 mb-0 mx-auto">0</p>
-                                    <button type="submit" name="downvote" style="background:none; padding=0; border=none;">
-                                        <i class="bi bi-caret-down-fill downvote" style="font-size:1.5rem;"
-                                            data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Downvote. Jawaban ini kurang membantu"></i>
-                                    </button>
-                                    </div>
-                                    </form>
+                                <div class="d-flex">      
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle ms-3">
                                     <div class="my-auto ms-2">
                                         <a href="/profile/overview.html" class="text-decoration-none text-dark">
-                                             @foreach($answer->users as $user) 
-                                            <p class="ms-2 my-auto">{{ $user->username }}</p>                                                                                       
+                                            <p class="ms-2 my-auto">{{ Auth::user()->username }}</p>                                                                                       
                                         </a>
-                                        <p class="ms-2 my-auto">
-                                            <i class="bi bi-star-fill" style="color: orange;"></i>
-                                            <small><span class="text-muted align-text-top">
-                                            {{ $user->pivot->sum('poin') }}</span>
-                                            </small>
-                                            @endforeach                                             
-                                        </p>
+                                        <small class="text-muted ms-1 fst-italic">{{ $answer->created_at->diffForHumans() }}</small>
                                     </div>
-                                </div>
-
-                                <small><span class="text-muted align-text-top ms-4 fst-italic ms-5 time-answered">{{ $answer->created_at->diffForHumans() }}</span></small>
-
-
-                                <div class="ms-5 mt-2 answered-container">
-                                    <p class="answered-box rounded p-3">{{ $answer->body }}</p>
-                                </div>
+                                </div>                                
                             </div>
+                            
+                            
+                            <p class="answered-box rounded p-3">{{ $answer->body }}</p>
 
                             <div class="border-bottom my-4"></div>
                             @endforeach

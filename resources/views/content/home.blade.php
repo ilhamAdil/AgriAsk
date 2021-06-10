@@ -22,7 +22,6 @@
 </div>
 
         <!-- article -->
-        @for($i=1; $i<=5; $i++)
         <div id="articles" class="container mt-5">
         <div class="card mb-4 w-100 box-shadow-card get-article-detail">
                 <div class="row g-0">
@@ -43,16 +42,28 @@
                     </div>
                 </div>
             </div>
-        </div>
-        @endfor
+        </div>  
 
         <div class="container see-article-container">
-            <a href="/blog.html" class="text-decoration-none see-all-article">
+            <a href="/blog" class="text-decoration-none see-all-article">
                 <p class="text-center text-dark see-all-article">Lihat semua artikel<i
                         class="bi bi-arrow-right-short arrow-right-icon" style="font-size: 1.6rem;"></i></p>
             </a>
         </div>
 @endsection
+
+@push('script')
+<script>
+        const target = document.querySelector("#typewriter");
+        if (target) {
+            new Typewriter(target, {
+                strings: ["Tanya Jawab", "dan", "Dapatkan Poin Kredibilitas"],
+                autoStart: true,
+                loop: true,
+            });
+        }
+</script>    
+@endpush
 
 
 

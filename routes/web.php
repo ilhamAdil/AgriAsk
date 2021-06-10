@@ -30,11 +30,14 @@ Route::get('/community','CommunityController@index');
 Route::post('/community','CommunityController@store');
 Route::delete('/community/{id}','CommunityController@destroy');
 Route::get('/community/{id}/edit','CommunityController@edit');
-Route::get('/community/{id}','CommunityController@show');
+Route::get('/community/{id}/detail/{user_id}','CommunityController@show')->name('show');
 Route::put('/community/{id}','CommunityController@update');
 
-Route::post('/community/{id}','CommunityController@answer');
+Route::post('/community/{id}/detail/{user_id}','CommunityController@answer');
+Route::post('/community/{id}/detail/{user_id}/upvote','CommunityController@upvote');
+Route::post('/community/{id}/detail/{user_id}/downvote','CommunityController@downvote');
 
+Route::get('/faq','FaqController@index');
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');

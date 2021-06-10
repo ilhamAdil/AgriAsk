@@ -30,7 +30,7 @@
     <div class="card bs-callout box-shadow-card my-3">
         <div class="card-body">
             <div class="d-flex justify-content-between">
-                <a href="/community/{{ $question->id }}" class="text-decoration-none text-dark">
+                <a href="/community/{{ $question->id }}/detail/{{ $question->user_id }}" class="text-decoration-none text-dark">
                     <h6 class="fw-bold question-tittle box-tittle">{{ $question->title }}</h6>
                 </a>            
                 @if($question->user->username === Auth::user()->username)
@@ -56,28 +56,56 @@
                 <p class="card-text"><small class="text-muted"> {{ $question->user->username }} - {{ $question->created_at->diffForHumans() }}</small>
                 </p>
                 <p class="desc">{{ $question->body }}</p>
-                <div class="d-flex justify-content-between">                    
+                <div class="d-flex justify-content-end">                    
                     <p class="card-text mb-0"><small class="text-muted">
                     <?php 
                     $i=0;
                     foreach($question->tags as $tag){
-                        if($i<2){
-                            echo "#".$tag->tag_name."&nbsp;&nbsp;&nbsp;";
-                        }
-                        else{
-                            echo "#".$tag->tag_name."<br>";
+                        if($i<4){ ?>
+                            <button type="button" class="btn btn-success btn-sm mt-1">{{ $tag->tag_name }}</button>
+                    <?php }
+                        else { ?>
+                            <button type="button" class="btn btn-success btn-sm mt-1">{{ $tag->tag_name }}</button><br>
+                    <?php
                             $i=0;   
                         }
                         $i++;
                     }
                     ?>
                     </small></p>
-                    <span class="mb-0"> 
-                    0 jawaban
-                    </span>
+                   
                 </div>
             </div>
     </div> 
     @endforeach
 @endsection
 
+@section('content2')
+<div class="col-lg-3 right-container">
+                    <div class="div border rounded bg-white p-3 right-panel">
+                        <p class="">User Terbaru</p>
+                        <!-- user list -->
+
+                    <?php $count=0; ?>     
+                    @foreach($poin as $key => $values)                       
+                        @foreach($values as $value)                          
+                        <?php if($count==7) break; ?>                     
+                        <div class="d-flex my-3">
+                            <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg" alt="Arif Satria" width="30px" height="30px" class="my-auto">
+                            <div>
+                            <a href="" class="text-decoration-none text-dark">
+                            <p class="ms-2 my-auto"></p>
+                            </a>
+                         
+                            <p class="ms-2 my-auto">
+                            <i class="bi bi-star-fill" style="color: orange;"></i>
+                            <small class="text-muted">{{ $value }}</small>
+                            </p>
+                            </div>
+                        </div>
+                        <?php $count++; ?>
+                        @endforeach                       
+                    @endforeach
+                    </div>
+                </div>
+@endsection               

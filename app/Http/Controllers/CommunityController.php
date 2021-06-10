@@ -8,7 +8,6 @@ use App\Question;
 use App\Answer;
 use App\Article;
 use App\Tag;
-use App\Answer_has_user;
 use App\Tag_has_question;
 use DB;
 use Auth;
@@ -21,8 +20,13 @@ class CommunityController extends Controller
 
     public function index(){
         $questions = Question::orderBy('id','DESC')->get();
+
+        $poin = DB::table('questions')->select([
+            DB::raw('sum(poin) as poin')
+        ])->groupBy('user_id')->orderBy('poin','DESC')->get();
+
         // dd($questions);
-        return view('content.question.index', compact('questions'));
+        return view('content.question.index', compact('poin','questions'));
     }
 
     public function store(Request $request){
@@ -54,6 +58,11 @@ class CommunityController extends Controller
         }
 
         // dd($tag_ids);        
+        $request->validate([
+            "title" => "required",
+            "body" => "required",
+            "tags" => "required"
+        ]);
 
          //ORM - mass assignment
         $question = Question::create([
@@ -90,29 +99,53 @@ class CommunityController extends Controller
     }
 
     
-    public function answer($id, Request $request){
+    public function answer($id, $user_id, Request $request){
         $answer = Answer::create([
             "body" => $request["comment"],
-            "question_id" => $id
+            "question_id" => $id,
+            "user_id" => Auth::id()
         ]);
 
-        $user = User::find(Auth::id());   
-        $answer->users()->sync($user);     
+        // $user = User::find(Auth::id());   
+        // $answer->users()->sync($user);     
 
-        $answers = Answer::where('question_id',$id)->get();            
-        
-        $question = Question::find($id);
-        return view('content.question.show', compact('answers','question'));    
+        // $poin = Question::where('user_id',$user_id)->sum('poin')->get();
+
+        return redirect(route('show',['id' => $id, 'user_id' => $user_id]));
     }   
 
-    public function show($id){
+    public function show($id, $user_id){
         // QUERY BUILDER
         // $post = DB::table('posts')->where('id',$id)->first();
 
         $question = Question::find($id);            
         $answers = Answer::where('question_id',$id)->get();
-  
-        return view('content.question.show', compact('answers','question'));
+
+        $poin = DB::table('questions')->select([
+            DB::raw('sum(poin) as poin')
+        ])->where('user_id',$user_id)->get();
+
+        $poinsaya = DB::table('questions')->select([
+            DB::raw('sum(poin) as poin')
+        ])->where('user_id',Auth::id())->get();
+        
+        return view('content.question.show', compact('poin','poinsaya','answers','question'));
+    }
+
+    public function upvote($id, $user_id){
+        $question = Question::find($id);
+        $increment = $question->poin + 1;
+
+        $question->update(['poin' => $increment]);
+        return redirect(route('show',['id' => $id, 'user_id' => $user_id]));
+    }
+
+    public function downvote($id, $user_id){
+        $question = Question::find($id);
+        $increment = $question->poin - 1;
+
+        $question->update(['poin' => $increment]);
+        return redirect(route('show',['id' => $id, 'user_id' => $user_id]));
     }
  
 }

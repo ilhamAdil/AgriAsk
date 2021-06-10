@@ -74,10 +74,14 @@
                                 </a>
 
                                 <li class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         Keluar
+                                    </a>
+                                    <a>
+                                        Masuk
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -137,17 +141,26 @@
                                     <div class="mb-0">
                                         <label class="col-form-label">Judul</label>
                                         <textarea type="message-text text-wrap" class="form-control" name="title"
-                                            placeholder="e.g. Bagaimana cara menghasilkan bibit unggul pada tanaman pepaya?"></textarea>
+                                            placeholder="e.g. Bagaimana cara menghasilkan bibit unggul pada tanaman pepaya?" required></textarea>
+                                        @error('title')   
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
                                     <div class="mb-0">
                                         <label for="message-text" class="col-form-label">Deskripsi</label>
                                         <textarea class="form-control" class="message-text text-wrap" name="body"
-                                            placeholder="Ketik deskripsi pertanyaan Anda disini"></textarea>
+                                            placeholder="Ketik deskripsi pertanyaan Anda disini" required></textarea>
+                                        @error('body')   
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror    
                                     </div>
                                     <div class="mb-0">
                                         <label for="message-text" class="col-form-label">Tags</label>
                                         <textarea class="form-control" class="message-text text-wrap" name="tags"
-                                            placeholder="Pisahkan dengan koma: hidroponik,aeroponik"></textarea>
+                                            placeholder="Pisahkan dengan koma: hidroponik,aeroponik" required></textarea>
+                                        @error('tags')   
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror       
                                     </div>
                                     <div class="modal-footer py-2 border-0">
                                         <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Batal</button>
@@ -194,27 +207,7 @@
                 </div>
 
                 <!-- right panel-->
-                <div class="col-lg-3 right-container">
-                    <div class="div border rounded bg-white p-3 right-panel">
-                        <p class="">User teraktif dalam menjawab</p>
-                        <!-- user list -->
-                        @for($i=1; $i<=3; $i++)
-                        <div class="d-flex my-3">
-                            <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg" alt="Arif Satria" width="30px" height="30px" class="my-auto">
-                            <div>
-                            <a href="" class="text-decoration-none text-dark">
-                            <p class="ms-2 my-auto">Arif Satria</p>
-                            </a>
-                         
-                            <p class="ms-2 my-auto">
-                            <i class="bi bi-star-fill" style="color: orange;"></i>
-                            <small class="text-muted">200 poin</small>
-                            </p>
-                            </div>
-                        </div>
-                        @endfor
-                    </div>
-                </div>
+                @yield('content2')
 
             </div>
         </div>
@@ -255,4 +248,14 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>    
+        <script>
+        const target = document.querySelector("#typewriter");
+        if (target) {
+            new Typewriter(target, {
+                strings: ["Tanya Jawab", "dan", "Dapatkan Poin Kredibilitas"],
+                autoStart: true,
+                loop: true,
+            });
+        }
+        </script>                
 </html>

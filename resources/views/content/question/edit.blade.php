@@ -19,10 +19,7 @@
                     <label for="Body">Body</label>
                     <textarea type="text" name="body" class="form-control mb-3 areaedit">{{ old('body', $question->body)}}</textarea>
                   </div>
-                  <div class="form-group">
-                    <label for="Tags">Tags</label>
-                    <input type="text" name="tags" value="" class="form-control mb-3" placeholder="Enter Tags">
-                  </div>
+               
                   <button type="submit" class="btn btn-success">Submit</button>            
               </form>
             </div>
