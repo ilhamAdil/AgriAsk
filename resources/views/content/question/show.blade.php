@@ -114,14 +114,14 @@
                          <div class="col-lg-2 left-container">
                     <div class="left-panel">
                         <ul class="list-unstyled border-top border-bottom">
-                            <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Pertanyaan</a>
+                        <li class="my-3">
+                                <a href="/community" class="text-decoration-none text-dark">Pertanyaan</a>
                             </li>
                             <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Tags</a>
+                                <a href="/tag" class="text-decoration-none text-dark">Tags</a>
                             </li>
                             <li class="my-3">
-                                <a href="" class="text-decoration-none text-dark">Users</a>
+                                <a href="/users" class="text-decoration-none text-dark">Users</a>
                             </li>
                         </ul>
                     </div>
@@ -257,7 +257,7 @@
                                     <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle ms-3">
                                     <div class="my-auto ms-2">
-                                        <a href="/profile/overview.html" class="text-decoration-none text-dark">
+                                        <a href=# class="text-decoration-none text-dark">
                                             <p class="ms-2 my-auto">{{ $question->user->username }}</p>                                                                                       
                                         </a>
                                         <small class="text-muted ms-1 fst-italic">{{ $answer->created_at->diffForHumans() }}</small>
