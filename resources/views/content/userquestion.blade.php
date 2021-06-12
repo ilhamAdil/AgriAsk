@@ -27,7 +27,8 @@
                     <h6 class="fw-bold question-tittle box-tittle">{{ $question->title }}</h6>
                 </a>       
 
-                <div class="dropdown">
+                @if($user->id === Auth::id())   
+                <div>
                                 <form action="/user/{{ $user->id }}/listquestion/{{ $question->id }}" method="post">
                                     @csrf
                                     @method('DELETE')
@@ -35,7 +36,8 @@
                                             class="bi bi-trash-fill downvote"></i>&nbsp;hapus</button>        
                                 </form>
                                 
-                </div>           
+                </div>     
+                @endif      
                
             </div>
 
