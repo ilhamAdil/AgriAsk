@@ -258,7 +258,7 @@
                                         alt="user" width="60px" height="60px" class="my-auto rounded-circle ms-3">
                                     <div class="my-auto ms-2">
                                         <a href="/profile/overview.html" class="text-decoration-none text-dark">
-                                            <p class="ms-2 my-auto">{{ Auth::user()->username }}</p>                                                                                       
+                                            <p class="ms-2 my-auto">{{ $question->user->username }}</p>                                                                                       
                                         </a>
                                         <small class="text-muted ms-1 fst-italic">{{ $answer->created_at->diffForHumans() }}</small>
                                     </div>
