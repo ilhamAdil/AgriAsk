@@ -330,7 +330,7 @@ Kami memilih arsitektur MVC karena MVC adalah pola yang bagus untuk memulai peng
 
 Demo frontend aplikasi dapat diakses pada tautan berikut [demo-agriAsk]
 
-Demo backend + half frontend dapat diakses di http://damp-coast-26039.herokuapp.com/home
+Demo prototipe website (backend + half-frontend) dapat diakses di http://damp-coast-26039.herokuapp.com/home
 
 ## G. Testing (Test Cases)
 
