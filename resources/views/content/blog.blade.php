@@ -143,6 +143,28 @@
                             </div>
                         </div>
 
+                        <div class="col-md-12 my-2">
+                            <div class="border bg-white rounded p-3 box-shadow-card">
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="d-flex">
+                                        <img src="https://aui.atlassian.com/aui/8.6/docs/images/avatar-person.svg"
+                                            alt="user profile" width="40px" height="40px"
+                                            class="my-auto rounded-circle">
+                                        <div>
+                                            <a href=# class="text-decoration-none text-dark">
+                                                <p class="ms-2 my-auto">Fryda Lucyana Permatasari</p>
+                                            </a>
+                                            <p class="ms-2 my-auto">
+                                                <small><span class="text-muted align-text-top">
+                                                
+                                                </span></small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
                         </div>
                     </div>
                 </div>
